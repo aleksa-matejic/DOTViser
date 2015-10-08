@@ -1,0 +1,461 @@
+c:\users\milos\documents\visual studio 2013\Projects\designIdea002\designIdea002\bin\Debug\App.xbf
+c:\users\milos\documents\visual studio 2013\Projects\designIdea002\designIdea002\bin\Debug\MainPage.xbf
+c:\users\milos\documents\visual studio 2013\Projects\designIdea002\designIdea002\bin\Debug\designIdea002.xr.xml
+c:\users\milos\documents\visual studio 2013\Projects\designIdea002\designIdea002\bin\Debug\designIdea002.exe
+c:\users\milos\documents\visual studio 2013\Projects\designIdea002\designIdea002\bin\Debug\designIdea002.pdb
+c:\users\milos\documents\visual studio 2013\Projects\designIdea002\designIdea002\bin\Debug\resources.pri
+c:\users\milos\documents\visual studio 2013\Projects\designIdea002\designIdea002\bin\Debug\AppxManifest.xml
+c:\users\milos\documents\visual studio 2013\Projects\designIdea002\designIdea002\bin\Debug\designIdea002.build.appxrecipe
+c:\users\milos\documents\visual studio 2013\Projects\designIdea002\designIdea002\obj\Debug\App.g.i.cs
+c:\users\milos\documents\visual studio 2013\Projects\designIdea002\designIdea002\obj\Debug\App.g.cs
+c:\users\milos\documents\visual studio 2013\Projects\designIdea002\designIdea002\obj\Debug\MainPage.g.i.cs
+c:\users\milos\documents\visual studio 2013\Projects\designIdea002\designIdea002\obj\Debug\MainPage.g.cs
+c:\users\milos\documents\visual studio 2013\Projects\designIdea002\designIdea002\obj\Debug\XamlTypeInfo.g.cs
+c:\users\milos\documents\visual studio 2013\Projects\designIdea002\designIdea002\obj\Debug\App.xaml
+c:\users\milos\documents\visual studio 2013\Projects\designIdea002\designIdea002\obj\Debug\App.xbf
+c:\users\milos\documents\visual studio 2013\Projects\designIdea002\designIdea002\obj\Debug\XamlSaveStateFile.xml
+c:\users\milos\documents\visual studio 2013\Projects\designIdea002\designIdea002\obj\Debug\MainPage.xaml
+c:\users\milos\documents\visual studio 2013\Projects\designIdea002\designIdea002\obj\Debug\MainPage.xbf
+c:\users\milos\documents\visual studio 2013\Projects\designIdea002\designIdea002\obj\Debug\designIdea002.exe
+c:\users\milos\documents\visual studio 2013\Projects\designIdea002\designIdea002\obj\Debug\designIdea002.pdb
+c:\users\milos\documents\visual studio 2013\Projects\designIdea002\designIdea002\obj\Debug\priconfig.xml
+c:\users\milos\documents\visual studio 2013\Projects\designIdea002\designIdea002\obj\Debug\priconfig.xml.intermediate
+c:\users\milos\documents\visual studio 2013\Projects\designIdea002\designIdea002\obj\Debug\layout.resfiles
+c:\users\milos\documents\visual studio 2013\Projects\designIdea002\designIdea002\obj\Debug\layout.resfiles.intermediate
+c:\users\milos\documents\visual studio 2013\Projects\designIdea002\designIdea002\obj\Debug\resources.resfiles
+c:\users\milos\documents\visual studio 2013\Projects\designIdea002\designIdea002\obj\Debug\resources.resfiles.intermediate
+c:\users\milos\documents\visual studio 2013\Projects\designIdea002\designIdea002\obj\Debug\pri.resfiles
+c:\users\milos\documents\visual studio 2013\Projects\designIdea002\designIdea002\obj\Debug\pri.resfiles.intermediate
+c:\users\milos\documents\visual studio 2013\Projects\designIdea002\designIdea002\obj\Debug\qualifiers.txt
+c:\users\milos\documents\visual studio 2013\Projects\designIdea002\designIdea002\obj\Debug\qualifiers.txt.intermediate
+c:\users\milos\documents\visual studio 2013\Projects\designIdea002\designIdea002\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+c:\users\milos\documents\visual studio 2013\Projects\designIdea002\designIdea002\obj\Debug\ProjectArchitectures.txt
+C:\Users\Milos\documents\visual studio 2013\Projects\designIdea002\designIdea002\bin\Debug\Studenti.xbf
+C:\Users\Milos\documents\visual studio 2013\Projects\designIdea002\designIdea002\obj\Debug\Studenti.g.i.cs
+C:\Users\Milos\documents\visual studio 2013\Projects\designIdea002\designIdea002\obj\Debug\Studenti.g.cs
+C:\Users\Milos\documents\visual studio 2013\Projects\designIdea002\designIdea002\obj\Debug\Studenti.xaml
+C:\Users\Milos\documents\visual studio 2013\Projects\designIdea002\designIdea002\obj\Debug\Studenti.xbf
+C:\Users\Milos\documents\visual studio 2013\Projects\designIdea002\designIdea002\bin\Debug\Vesti.xbf
+C:\Users\Milos\documents\visual studio 2013\Projects\designIdea002\designIdea002\obj\Debug\Vesti.g.i.cs
+C:\Users\Milos\documents\visual studio 2013\Projects\designIdea002\designIdea002\obj\Debug\Vesti.g.cs
+C:\Users\Milos\documents\visual studio 2013\Projects\designIdea002\designIdea002\obj\Debug\Vesti.xaml
+C:\Users\Milos\documents\visual studio 2013\Projects\designIdea002\designIdea002\obj\Debug\Vesti.xbf
+C:\Users\Milos\documents\visual studio 2013\Projects\designIdea002\designIdea002\bin\Debug\Smerovi.xbf
+C:\Users\Milos\documents\visual studio 2013\Projects\designIdea002\designIdea002\obj\Debug\Smerovi.g.i.cs
+C:\Users\Milos\documents\visual studio 2013\Projects\designIdea002\designIdea002\obj\Debug\Smerovi.g.cs
+C:\Users\Milos\documents\visual studio 2013\Projects\designIdea002\designIdea002\obj\Debug\Smerovi.xaml
+C:\Users\Milos\documents\visual studio 2013\Projects\designIdea002\designIdea002\obj\Debug\Smerovi.xbf
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\bin\Debug\App.xbf
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\bin\Debug\MainPage.xbf
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\bin\Debug\Smerovi.xbf
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\bin\Debug\Studenti.xbf
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\bin\Debug\Vesti.xbf
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\bin\Debug\designIdea002.exe
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\bin\Debug\designIdea002.pdb
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\bin\Debug\resources.pri
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\bin\Debug\AppxManifest.xml
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\bin\Debug\designIdea002.build.appxrecipe
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\obj\Debug\App.g.i.cs
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\obj\Debug\App.g.cs
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\obj\Debug\MainPage.g.i.cs
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\obj\Debug\MainPage.g.cs
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\obj\Debug\Smerovi.g.i.cs
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\obj\Debug\Smerovi.g.cs
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\obj\Debug\Studenti.g.i.cs
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\obj\Debug\Studenti.g.cs
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\obj\Debug\Vesti.g.i.cs
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\obj\Debug\Vesti.g.cs
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\obj\Debug\App.xaml
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\obj\Debug\MainPage.xaml
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\obj\Debug\Smerovi.xaml
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\obj\Debug\Studenti.xaml
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\obj\Debug\Vesti.xaml
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\obj\Debug\App.xbf
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\obj\Debug\MainPage.xbf
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\obj\Debug\Smerovi.xbf
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\obj\Debug\Studenti.xbf
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\obj\Debug\Vesti.xbf
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\obj\Debug\designIdea002.exe
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\obj\Debug\designIdea002.pdb
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\obj\Debug\priconfig.xml
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\obj\Debug\priconfig.xml.intermediate
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\obj\Debug\layout.resfiles
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\obj\Debug\layout.resfiles.intermediate
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\obj\Debug\resources.resfiles
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\obj\Debug\resources.resfiles.intermediate
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\obj\Debug\pri.resfiles
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\obj\Debug\pri.resfiles.intermediate
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\obj\Debug\qualifiers.txt
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\obj\Debug\ProjectArchitectures.txt
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\bin\Debug\Timovi.xbf
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\obj\Debug\Timovi.g.i.cs
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\obj\Debug\Timovi.g.cs
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\obj\Debug\Timovi.xaml
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\obj\Debug\Timovi.xbf
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\obj\Debug\Profesori.g.i.cs
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\obj\Debug\Profesori.g.cs
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\obj\Debug\Profesori.xaml
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\obj\Debug\Profesori.xbf
+C:\Users\Aleksa\Desktop\designIdea002\designIdea002\bin\Debug\Profesori.xbf
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\bin\Debug\App.xbf
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\bin\Debug\MainPage.xbf
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\bin\Debug\Profesori.xbf
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\bin\Debug\Smerovi.xbf
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\bin\Debug\Studenti.xbf
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\bin\Debug\Timovi.xbf
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\bin\Debug\Vesti.xbf
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\bin\Debug\designIdea002.exe
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\bin\Debug\designIdea002.pdb
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\bin\Debug\resources.pri
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\bin\Debug\AppxManifest.xml
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\bin\Debug\designIdea002.build.appxrecipe
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\obj\Debug\App.g.i.cs
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\obj\Debug\App.g.cs
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\obj\Debug\MainPage.g.i.cs
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\obj\Debug\MainPage.g.cs
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\obj\Debug\Profesori.g.i.cs
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\obj\Debug\Profesori.g.cs
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\obj\Debug\Smerovi.g.i.cs
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\obj\Debug\Smerovi.g.cs
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\obj\Debug\Studenti.g.i.cs
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\obj\Debug\Studenti.g.cs
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\obj\Debug\Timovi.g.i.cs
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\obj\Debug\Timovi.g.cs
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\obj\Debug\Vesti.g.i.cs
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\obj\Debug\Vesti.g.cs
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\obj\Debug\App.xaml
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\obj\Debug\MainPage.xaml
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\obj\Debug\Profesori.xaml
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\obj\Debug\Smerovi.xaml
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\obj\Debug\Studenti.xaml
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\obj\Debug\Timovi.xaml
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\obj\Debug\Vesti.xaml
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\obj\Debug\App.xbf
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\obj\Debug\MainPage.xbf
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\obj\Debug\Profesori.xbf
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\obj\Debug\Smerovi.xbf
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\obj\Debug\Studenti.xbf
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\obj\Debug\Timovi.xbf
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\obj\Debug\Vesti.xbf
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\obj\Debug\designIdea002.exe
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\obj\Debug\designIdea002.pdb
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\obj\Debug\priconfig.xml
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\obj\Debug\priconfig.xml.intermediate
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\obj\Debug\layout.resfiles
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\obj\Debug\layout.resfiles.intermediate
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\obj\Debug\resources.resfiles
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\obj\Debug\resources.resfiles.intermediate
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\obj\Debug\pri.resfiles
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\obj\Debug\pri.resfiles.intermediate
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\obj\Debug\qualifiers.txt
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Aleksa\Desktop\gluposti\designIdea002\designIdea002\obj\Debug\ProjectArchitectures.txt
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\bin\Debug\App.xbf
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\bin\Debug\MainPage.xbf
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\bin\Debug\Profesori.xbf
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\bin\Debug\Smerovi.xbf
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\bin\Debug\PdfPage.xbf
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\bin\Debug\Studenti.xbf
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\bin\Debug\Timovi.xbf
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\bin\Debug\Vesti.xbf
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\bin\Debug\designIdea002.exe
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\bin\Debug\designIdea002.pdb
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\bin\Debug\resources.pri
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\bin\Debug\AppxManifest.xml
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\bin\Debug\designIdea002.build.appxrecipe
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\App.g.i.cs
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\App.g.cs
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\MainPage.g.i.cs
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\MainPage.g.cs
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\Profesori.g.i.cs
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\Profesori.g.cs
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\Smerovi.g.i.cs
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\Smerovi.g.cs
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\PdfPage.g.i.cs
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\PdfPage.g.cs
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\Studenti.g.i.cs
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\Studenti.g.cs
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\Timovi.g.i.cs
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\Timovi.g.cs
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\Vesti.g.i.cs
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\Vesti.g.cs
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\App.xaml
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\MainPage.xaml
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\Profesori.xaml
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\Smerovi.xaml
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\PdfPage.xaml
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\Studenti.xaml
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\Timovi.xaml
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\Vesti.xaml
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\App.xbf
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\MainPage.xbf
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\Profesori.xbf
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\Smerovi.xbf
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\PdfPage.xbf
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\Studenti.xbf
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\Timovi.xbf
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\Vesti.xbf
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\designIdea002.exe
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\designIdea002.pdb
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\priconfig.xml
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\priconfig.xml.intermediate
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\layout.resfiles
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\layout.resfiles.intermediate
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\resources.resfiles
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\resources.resfiles.intermediate
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\pri.resfiles
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\pri.resfiles.intermediate
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\qualifiers.txt
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\ProjectArchitectures.txt
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\Profesor.g.i.cs
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\Profesor.g.cs
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\Profesor.xaml
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\Profesor.xbf
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\bin\Debug\Profesor.xbf
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\bin\Debug\MySql.Data.RT.dll
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\MySql.Data.RT\en-US\MySql.Data.RT.Properties.Resources.resw
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\designIdea002.csproj.GenerateResource.Cache
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\MySql.Data.RT.pri
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\MySql.Data.RT\qualifiers.txt
+C:\Users\Nikola\Desktop\designIdea002\designIdea002\obj\Debug\designIdea002.csprojResolveAssemblyReference.cache
+C:\Users\tabla\Desktop\designIdea002\designIdea002\bin\Debug\App.xbf
+C:\Users\tabla\Desktop\designIdea002\designIdea002\bin\Debug\MainPage.xbf
+C:\Users\tabla\Desktop\designIdea002\designIdea002\bin\Debug\PdfPage.xbf
+C:\Users\tabla\Desktop\designIdea002\designIdea002\bin\Debug\Profesor.xbf
+C:\Users\tabla\Desktop\designIdea002\designIdea002\bin\Debug\Profesori.xbf
+C:\Users\tabla\Desktop\designIdea002\designIdea002\bin\Debug\Smerovi.xbf
+C:\Users\tabla\Desktop\designIdea002\designIdea002\bin\Debug\Studenti.xbf
+C:\Users\tabla\Desktop\designIdea002\designIdea002\bin\Debug\Timovi.xbf
+C:\Users\tabla\Desktop\designIdea002\designIdea002\bin\Debug\Vesti.xbf
+C:\Users\tabla\Desktop\designIdea002\designIdea002\bin\Debug\designIdea002.exe
+C:\Users\tabla\Desktop\designIdea002\designIdea002\bin\Debug\designIdea002.pdb
+C:\Users\tabla\Desktop\designIdea002\designIdea002\bin\Debug\resources.pri
+C:\Users\tabla\Desktop\designIdea002\designIdea002\bin\Debug\AppxManifest.xml
+C:\Users\tabla\Desktop\designIdea002\designIdea002\bin\Debug\designIdea002.build.appxrecipe
+C:\Users\tabla\Desktop\designIdea002\designIdea002\bin\Debug\MySql.Data.RT.dll
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\designIdea002.csprojResolveAssemblyReference.cache
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\App.g.i.cs
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\App.g.cs
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\MainPage.g.i.cs
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\MainPage.g.cs
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\PdfPage.g.i.cs
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\PdfPage.g.cs
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\Profesor.g.i.cs
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\Profesor.g.cs
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\Profesori.g.i.cs
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\Profesori.g.cs
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\Smerovi.g.i.cs
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\Smerovi.g.cs
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\Studenti.g.i.cs
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\Studenti.g.cs
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\Timovi.g.i.cs
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\Timovi.g.cs
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\Vesti.g.i.cs
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\Vesti.g.cs
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\App.xaml
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\MainPage.xaml
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\PdfPage.xaml
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\Profesor.xaml
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\Profesori.xaml
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\Smerovi.xaml
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\Studenti.xaml
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\Timovi.xaml
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\Vesti.xaml
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\App.xbf
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\MainPage.xbf
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\PdfPage.xbf
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\Profesor.xbf
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\Profesori.xbf
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\Smerovi.xbf
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\Studenti.xbf
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\Timovi.xbf
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\Vesti.xbf
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\XamlSaveStateFile.xml
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\designIdea002.exe
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\designIdea002.pdb
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\designIdea002.csproj.GenerateResource.Cache
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\MySql.Data.RT.pri
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\MySql.Data.RT\qualifiers.txt
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\priconfig.xml
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\priconfig.xml.intermediate
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\layout.resfiles
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\layout.resfiles.intermediate
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\resources.resfiles
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\resources.resfiles.intermediate
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\pri.resfiles
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\pri.resfiles.intermediate
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\qualifiers.txt
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\qualifiers.txt.intermediate
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\ProjectArchitectures.txt
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\MySql.Data.RT\layout.resfiles
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\MySql.Data.RT\layout.resfiles.intermediate
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\MySql.Data.RT\Resources.resfiles
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\MySql.Data.RT\Resources.resfiles.intermediate
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\MySql.Data.RT\pri.resfiles
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\MySql.Data.RT\pri.resfiles.intermediate
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\MySql.Data.RT\priconfig.xml
+C:\Users\tabla\Desktop\designIdea002\designIdea002\obj\Debug\MySql.Data.RT\priconfig.xml.intermediate
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\bin\Debug\App.xbf
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\bin\Debug\MainPage.xbf
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\bin\Debug\PdfPage.xbf
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\bin\Debug\Profesor.xbf
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\bin\Debug\Profesori.xbf
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\bin\Debug\Smerovi.xbf
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\bin\Debug\Studenti.xbf
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\bin\Debug\Timovi.xbf
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\bin\Debug\Vesti.xbf
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\bin\Debug\designIdea002.exe
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\bin\Debug\designIdea002.pdb
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\bin\Debug\resources.pri
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\bin\Debug\AppxManifest.xml
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\bin\Debug\designIdea002.build.appxrecipe
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\bin\Debug\MySql.Data.RT.dll
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\designIdea002.csprojResolveAssemblyReference.cache
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\App.g.i.cs
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\App.g.cs
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\MainPage.g.i.cs
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\MainPage.g.cs
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\PdfPage.g.i.cs
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\PdfPage.g.cs
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\Profesor.g.i.cs
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\Profesor.g.cs
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\Profesori.g.i.cs
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\Profesori.g.cs
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\Smerovi.g.i.cs
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\Smerovi.g.cs
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\Studenti.g.i.cs
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\Studenti.g.cs
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\Timovi.g.i.cs
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\Timovi.g.cs
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\Vesti.g.i.cs
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\Vesti.g.cs
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\App.xaml
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\MainPage.xaml
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\PdfPage.xaml
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\Profesor.xaml
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\Profesori.xaml
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\Smerovi.xaml
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\Studenti.xaml
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\Timovi.xaml
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\Vesti.xaml
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\App.xbf
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\MainPage.xbf
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\PdfPage.xbf
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\Profesor.xbf
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\Profesori.xbf
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\Smerovi.xbf
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\Studenti.xbf
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\Timovi.xbf
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\Vesti.xbf
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\XamlSaveStateFile.xml
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\designIdea002.exe
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\designIdea002.pdb
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\MySql.Data.RT\en-US\MySql.Data.RT.Properties.Resources.resw
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\designIdea002.csproj.GenerateResource.Cache
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\MySql.Data.RT.pri
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\MySql.Data.RT\qualifiers.txt
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\priconfig.xml
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\priconfig.xml.intermediate
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\layout.resfiles
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\layout.resfiles.intermediate
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\resources.resfiles
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\resources.resfiles.intermediate
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\pri.resfiles
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\pri.resfiles.intermediate
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\qualifiers.txt
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\qualifiers.txt.intermediate
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\tabla2\Desktop\designIdea002\designIdea002\obj\Debug\ProjectArchitectures.txt
+C:\Users\Nikola\Documents\designIdea002\designIdea002\bin\Debug\App.xbf
+C:\Users\Nikola\Documents\designIdea002\designIdea002\bin\Debug\MainPage.xbf
+C:\Users\Nikola\Documents\designIdea002\designIdea002\bin\Debug\PdfPage.xbf
+C:\Users\Nikola\Documents\designIdea002\designIdea002\bin\Debug\Profesor.xbf
+C:\Users\Nikola\Documents\designIdea002\designIdea002\bin\Debug\Profesori.xbf
+C:\Users\Nikola\Documents\designIdea002\designIdea002\bin\Debug\Smerovi.xbf
+C:\Users\Nikola\Documents\designIdea002\designIdea002\bin\Debug\Studenti.xbf
+C:\Users\Nikola\Documents\designIdea002\designIdea002\bin\Debug\Timovi.xbf
+C:\Users\Nikola\Documents\designIdea002\designIdea002\bin\Debug\Vesti.xbf
+C:\Users\Nikola\Documents\designIdea002\designIdea002\bin\Debug\designIdea002.exe
+C:\Users\Nikola\Documents\designIdea002\designIdea002\bin\Debug\designIdea002.pdb
+C:\Users\Nikola\Documents\designIdea002\designIdea002\bin\Debug\resources.pri
+C:\Users\Nikola\Documents\designIdea002\designIdea002\bin\Debug\AppxManifest.xml
+C:\Users\Nikola\Documents\designIdea002\designIdea002\bin\Debug\designIdea002.build.appxrecipe
+C:\Users\Nikola\Documents\designIdea002\designIdea002\bin\Debug\MySql.Data.RT.dll
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\designIdea002.csprojResolveAssemblyReference.cache
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\App.g.i.cs
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\App.g.cs
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\MainPage.g.i.cs
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\MainPage.g.cs
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\PdfPage.g.i.cs
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\PdfPage.g.cs
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\Profesor.g.i.cs
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\Profesor.g.cs
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\Profesori.g.i.cs
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\Profesori.g.cs
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\Smerovi.g.i.cs
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\Smerovi.g.cs
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\Studenti.g.i.cs
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\Studenti.g.cs
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\Timovi.g.i.cs
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\Timovi.g.cs
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\Vesti.g.i.cs
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\Vesti.g.cs
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\App.xaml
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\MainPage.xaml
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\PdfPage.xaml
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\Profesor.xaml
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\Profesori.xaml
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\Smerovi.xaml
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\Studenti.xaml
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\Timovi.xaml
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\Vesti.xaml
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\App.xbf
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\MainPage.xbf
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\PdfPage.xbf
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\Profesor.xbf
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\Profesori.xbf
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\Smerovi.xbf
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\Studenti.xbf
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\Timovi.xbf
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\Vesti.xbf
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\designIdea002.exe
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\designIdea002.pdb
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\designIdea002.csproj.GenerateResource.Cache
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\MySql.Data.RT\layout.resfiles
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\MySql.Data.RT\layout.resfiles.intermediate
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\MySql.Data.RT\Resources.resfiles
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\MySql.Data.RT\Resources.resfiles.intermediate
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\MySql.Data.RT\pri.resfiles
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\MySql.Data.RT\pri.resfiles.intermediate
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\MySql.Data.RT\priconfig.xml
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\MySql.Data.RT\priconfig.xml.intermediate
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\MySql.Data.RT.pri
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\MySql.Data.RT\qualifiers.txt
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\priconfig.xml
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\priconfig.xml.intermediate
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\layout.resfiles
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\layout.resfiles.intermediate
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\resources.resfiles
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\resources.resfiles.intermediate
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\pri.resfiles
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\pri.resfiles.intermediate
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\qualifiers.txt
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Nikola\Documents\designIdea002\designIdea002\obj\Debug\ProjectArchitectures.txt

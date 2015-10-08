@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<vesti>
+  <vest id='5'>
+    <naslov>Peta vest</naslov>
+    <opis>Da li vas je nekad zanimalo ko je pravo obezdjenje u firmama?</opis>
+    <tekst></tekst>
+    <mSlika>/Assets/Noise-Light-Grey-Tileable-Pattern-For-Website-Background.jpg</mSlika>
+    <vSlika>/Assets/10898062_10205305253966229_2019889139822974912_n.jpg</vSlika>
+  </vest>
+  <vest id='4'>
+    <naslov>Igor stiti Telenor</naslov>
+    <opis>Da li vas je nekad zanimalo ko je pravo obezdjenje u firmama?</opis>
+    <tekst></tekst>
+    <mSlika>/Assets/PNGinsipiracija__0002_Layer-4.png</mSlika>
+    <vSlika>/Assets/10898062_10205305253966229_2019889139822974912_n.jpg</vSlika>
+  </vest>
+  <vest id='3'>
+    <naslov>Prva sprska MOBA igra</naslov>
+    <opis>Upoznajte Baneta koji je sa svojim timom dospeo do Steam martketa</opis>
+    <tekst></tekst>
+    <mSlika>/Assets/PNGinsipiracija__0000_Layer-5.png</mSlika>
+    <vSlika>/Assets/10898062_10205305253966229_2019889139822974912_n.jpg</vSlika>
+  </vest>
+  <vest id='2'>
+    <naslov>Frontmen SARS-a na AVT-u1</naslov>
+    <opis>Procitaj pricu o idejama, skolovanju, nasem studiju i saradnji skole sa Zarkom Kovacevicem</opis>
+    <tekst></tekst>
+    <mSlika>/Assets/PNGinsipiracija__0016_Layer-1.png</mSlika>
+    <vSlika>/Assets/10406375_10155034910910627_8094214467486408757_n.jpg</vSlika>
+  </vest>
+  <vest id='1'>
+    <naslov>Laki RAGE</naslov>
+    <opis>Seminarski rad sa kojim svi mozemo da se poistovetimo</opis>
+    <tekst></tekst>
+    <mSlika>/Assets/PNGinsipiracija__0004_Layer-2.png</mSlika>
+    <vSlika>/Assets/10898062_10205305253966229_2019889139822974912_n.jpg</vSlika>
+  </vest>
+</vesti>

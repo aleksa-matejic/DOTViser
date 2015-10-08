@@ -1,0 +1,415 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A47D4D09-BF42-42B5-ABC7-81D5745427CD}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>designIdea002</RootNamespace>
+    <AssemblyName>designIdea002</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <TargetPlatformVersion>8.1</TargetPlatformVersion>
+    <MinimumVisualStudioVersion>12</MinimumVisualStudioVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PackageCertificateKeyFile>designIdea002_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateThumbprint>33ECD4DD029B425D60F5ECC2274422E1000A7C1C</PackageCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <Folder Include="NewFolder1\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Baza.cs" />
+    <Compile Include="boolToVisibility.cs" />
+    <Compile Include="Common\BooleanToVisibilityConverter.cs" />
+    <Compile Include="Common\NavigationHelper.cs" />
+    <Compile Include="Common\ObservableDictionary.cs" />
+    <Compile Include="Common\RelayCommand.cs" />
+    <Compile Include="Common\SuspensionManager.cs" />
+    <Compile Include="DataModel\SampleDataSource.cs" />
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MyXmlReader.cs" />
+    <Compile Include="Predmet.cs" />
+    <Compile Include="Profesor.cs" />
+    <Compile Include="Profesor.xaml.cs" />
+    <Compile Include="Profesori.xaml.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RSS\Channel.cs" />
+    <Compile Include="RSS\MainViewModel.cs" />
+    <Compile Include="RSS\NewsItem.cs" />
+    <Compile Include="RSS\Rss.cs" />
+    <Compile Include="PdfPage.xaml.cs">
+      <DependentUpon>PdfPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Smer.cs" />
+    <Compile Include="Smerovi.xaml.cs" />
+    <Compile Include="Student.cs" />
+    <Compile Include="Studenti.xaml.cs" />
+    <Compile Include="StudentskeVesti.cs" />
+    <Compile Include="Tim.cs" />
+    <Compile Include="Timovi.xaml.cs" />
+    <Compile Include="Vesti.xaml.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <None Include="DataModel\SampleData.json" />
+    <None Include="designIdea002_TemporaryKey.pfx" />
+    <None Include="timovi\Thumbs.db" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="adresar\100.jpg" />
+    <Content Include="adresar\102.jpg" />
+    <Content Include="adresar\103.jpg" />
+    <Content Include="adresar\104.jpg" />
+    <Content Include="adresar\105.jpg" />
+    <Content Include="adresar\107.jpg" />
+    <Content Include="adresar\108.jpg" />
+    <Content Include="adresar\109.jpg" />
+    <Content Include="adresar\110.jpg" />
+    <Content Include="adresar\111.jpg" />
+    <Content Include="adresar\115.jpg" />
+    <Content Include="adresar\116.jpg" />
+    <Content Include="adresar\118.jpg" />
+    <Content Include="adresar\119.jpg" />
+    <Content Include="adresar\13.jpg" />
+    <Content Include="adresar\14.jpg" />
+    <Content Include="adresar\16.jpg" />
+    <Content Include="adresar\25.jpg" />
+    <Content Include="adresar\27.jpg" />
+    <Content Include="adresar\28.jpg" />
+    <Content Include="adresar\29.jpg" />
+    <Content Include="adresar\3.jpg" />
+    <Content Include="adresar\33.jpg" />
+    <Content Include="adresar\34.jpg" />
+    <Content Include="adresar\35.jpg" />
+    <Content Include="adresar\38.jpg" />
+    <Content Include="adresar\39.jpg" />
+    <Content Include="adresar\4.jpg" />
+    <Content Include="adresar\40.jpg" />
+    <Content Include="adresar\41.jpg" />
+    <Content Include="adresar\44.jpg" />
+    <Content Include="adresar\45.jpg" />
+    <Content Include="adresar\46.jpg" />
+    <Content Include="adresar\52.jpg" />
+    <Content Include="adresar\55.jpg" />
+    <Content Include="adresar\56.jpg" />
+    <Content Include="adresar\60.jpg" />
+    <Content Include="adresar\63.jpg" />
+    <Content Include="adresar\66.jpg" />
+    <Content Include="adresar\67.jpg" />
+    <Content Include="adresar\68.jpg" />
+    <Content Include="adresar\69.jpg" />
+    <Content Include="adresar\71.jpg" />
+    <Content Include="adresar\72.jpg" />
+    <Content Include="adresar\73.jpg" />
+    <Content Include="adresar\75.jpg" />
+    <Content Include="adresar\77.jpg" />
+    <Content Include="adresar\78.jpg" />
+    <Content Include="adresar\8.jpg" />
+    <Content Include="adresar\80.jpg" />
+    <Content Include="adresar\81.jpg" />
+    <Content Include="adresar\83.jpg" />
+    <Content Include="adresar\85.jpg" />
+    <Content Include="adresar\86.jpg" />
+    <Content Include="adresar\87.jpg" />
+    <Content Include="adresar\88.jpg" />
+    <Content Include="adresar\89.jpg" />
+    <Content Include="adresar\91.jpg" />
+    <Content Include="adresar\93.jpg" />
+    <Content Include="adresar\95.jpg" />
+    <Content Include="adresar\96.jpg" />
+    <Content Include="adresar\97.jpg" />
+    <Content Include="adresar\98.jpg" />
+    <Content Include="adresar\99.jpg" />
+    <Content Include="adresar\muskarac.jpg" />
+    <Content Include="adresar\zena.jpg" />
+    <Content Include="Assets\10384128_10155250556365627_3823687141919744211_n.jpg" />
+    <Content Include="Assets\104.jpg" />
+    <Content Include="Assets\10406375_10155034910910627_8094214467486408757_n.jpg" />
+    <Content Include="Assets\10898062_10205305253966229_2019889139822974912_n.jpg" />
+    <Content Include="Assets\10ka.png" />
+    <Content Include="Assets\1103970794414.jpg" />
+    <Content Include="Assets\1412968850040.jpg" />
+    <Content Include="Assets\1463490_683783354980353_1184350003_n.jpg" />
+    <Content Include="Assets\2411952715280.jpg" />
+    <Content Include="Assets\5_1.jpg" />
+    <Content Include="Assets\aleksandar mitrović.jpg" />
+    <Content Include="Assets\aleksandarkaretic.JPG" />
+    <Content Include="Assets\asuv.jpg" />
+    <Content Include="Assets\Avicii - Wake Me Up Official Teaser 1.mp4" />
+    <Content Include="Assets\avt-pozadina.JPG" />
+    <Content Include="Assets\awakening_of_heroes.png" />
+    <Content Include="Assets\casopis.png" />
+    <Content Include="Assets\DarkGray.png" />
+    <Content Include="Assets\djordjemilosevic.JPG" />
+    <Content Include="Assets\djurdje kovačević.jpg" />
+    <Content Include="Assets\dragutin dimić.jpg" />
+    <Content Include="Assets\dušan vučić.jpg" />
+    <Content Include="Assets\filip stevanović.jpg" />
+    <Content Include="Assets\filipdjajic.JPG" />
+    <Content Include="Assets\fudbal.png" />
+    <Content Include="Assets\futsal-pozadina.jpg" />
+    <Content Include="Assets\futsal1.jpg" />
+    <Content Include="Assets\futsal2.jpg" />
+    <Content Include="Assets\ivan palijan.jpg" />
+    <Content Include="Assets\jovan jovanovi.jpg" />
+    <Content Include="Assets\kosarka.png" />
+    <Content Include="Assets\kosarka_pozadina.jpg" />
+    <Content Include="Assets\kosta šotić.jpg" />
+    <Content Include="Assets\lazar donić.jpg" />
+    <Content Include="Assets\lazarcolovic.JPG" />
+    <Content Include="Assets\lazar_c.PNG" />
+    <Content Include="Assets\LightGray.png" />
+    <Content Include="Assets\Logo.scale-100.png" />
+    <Content Include="Assets\logo1.png" />
+    <Content Include="Assets\LogoSkole.jpg" />
+    <Content Include="Assets\logoViser.png" />
+    <Content Include="Assets\luka milovanović.jpg" />
+    <Content Include="Assets\marko štrkalj.jpg" />
+    <Content Include="Assets\markokostic.JPG" />
+    <Content Include="Assets\marko_g.PNG" />
+    <Content Include="Assets\MediumGray.png" />
+    <Content Include="Assets\milan zelenović.jpg" />
+    <Content Include="Assets\milanjokic.JPG" />
+    <Content Include="Assets\milenko jović.jpg" />
+    <Content Include="Assets\milenko vujković.jpg" />
+    <Content Include="Assets\milijana nešić.jpg" />
+    <Content Include="Assets\milos1.PNG" />
+    <Content Include="Assets\miloscvjetan.JPG" />
+    <Content Include="Assets\milossimic.JPG" />
+    <Content Include="Assets\miloš čizmić.jpg" />
+    <Content Include="Assets\Nenad drekalovic.jpg" />
+    <Content Include="Assets\nikola bakić.jpg" />
+    <Content Include="Assets\nikola marčeta.jpg" />
+    <Content Include="Assets\nina lakičin.jpg" />
+    <Content Include="Assets\Noise-Light-Grey-Tileable-Pattern-For-Website-Background.jpg" />
+    <Content Include="Assets\odbojka.jpg" />
+    <Content Include="Assets\odbojka.png" />
+    <Content Include="Assets\parlament.png" />
+    <Content Include="Assets\PNGinsipiracija__0000_Layer-5.png" />
+    <Content Include="Assets\PNGinsipiracija__0002_Layer-4.png" />
+    <Content Include="Assets\PNGinsipiracija__0003_Layer-3.png" />
+    <Content Include="Assets\PNGinsipiracija__0004_Layer-2.png" />
+    <Content Include="Assets\PNGinsipiracija__0016_Layer-1.png" />
+    <Content Include="Assets\pozadina003.png" />
+    <Content Include="Assets\pozadina010.png" />
+    <Content Include="Assets\pozadina5.png" />
+    <Content Include="Assets\proba.txt" />
+    <Content Include="Assets\radivoje Lacković.jpg" />
+    <Content Include="Assets\radojica drekalović.jpg" />
+    <Content Include="Assets\robotika.png" />
+    <Content Include="Assets\rt.jpg" />
+    <Content Include="Assets\rukomet.jpg" />
+    <Content Include="Assets\rukomet.png" />
+    <Content Include="Assets\siniša stančić.jpg" />
+    <Content Include="Assets\SmallLogo.scale-100.png" />
+    <Content Include="Assets\sneža veselinović.jpg" />
+    <Content Include="Assets\SplashScreen.scale-100.png" />
+    <Content Include="Assets\stefan kuzmanović.jpg" />
+    <Content Include="Assets\stefan lazarević.jpg" />
+    <Content Include="Assets\stoniTenis.jpg" />
+    <Content Include="Assets\stoniTenis.png" />
+    <Content Include="Assets\StoreLogo.scale-100.png" />
+    <Content Include="Assets\StudentskeVesti.xml" />
+    <Content Include="Assets\StudentskeVesti2.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Assets\Telenor-Logo_0.jpg" />
+    <Content Include="Assets\StudentskeVesti1.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Assets\test1.jpg" />
+    <Content Include="Assets\test11.jpg" />
+    <Content Include="Assets\vasilijedjokic.JPG" />
+    <Content Include="Assets\veljko_m.PNG" />
+    <Content Include="Assets\vidoje gavrilović.jpg" />
+    <Content Include="Assets\vojin ivanović.jpg" />
+    <Content Include="Assets\zoran dragić.jpg" />
+    <Content Include="Assets\željko čvarković.jpg" />
+    <Content Include="Assets\Александар Митровић АВТ 2. година.jpg" />
+    <Content Include="Assets\ана ранђеловић.jpg" />
+    <Content Include="Assets\Владимир Граховац ЕЛИТЕ 1. година.jpg" />
+    <Content Include="Assets\Добрица Петрић АСУВ 3. година.jpg" />
+    <Content Include="Assets\Милица Тонић ЕПО 1. година.jpg" />
+    <Content Include="Assets\Милош Митровић АСУВ 3. година.jpg" />
+    <Content Include="avt-pozadina.JPG" />
+    <Content Include="Common\ReadMe.txt" />
+    <Content Include="smerovi\asuv.jpg" />
+    <Content Include="smerovi\avt.jpg" />
+    <Content Include="smerovi\elite.jpg" />
+    <Content Include="smerovi\epo.jpg" />
+    <Content Include="smerovi\meha.jpg" />
+    <Content Include="smerovi\mtdtv.jpg" />
+    <Content Include="smerovi\net.jpg" />
+    <Content Include="smerovi\nrt.jpg" />
+    <Content Include="smerovi\nrtd.jpg" />
+    <Content Include="smerovi\rt.jpg" />
+    <Content Include="smerovi\siks.jpg" />
+    <Content Include="smerovi\sselite.jpg" />
+    <Content Include="smerovi\ssnet.jpg" />
+    <Content Include="smerovi\ssnrt.jpg" />
+    <Content Include="StudentskeVesti.xml" />
+    <Content Include="timovi\10k.jpg" />
+    <Content Include="timovi\casopis1.jpg" />
+    <Content Include="timovi\casopis2.JPG" />
+    <Content Include="timovi\kosarka1.jpg" />
+    <Content Include="timovi\kosarka2.jpg" />
+    <Content Include="timovi\odbojka1.jpg" />
+    <Content Include="timovi\odbojka2.jpg" />
+    <Content Include="timovi\parlament1.jpg" />
+    <Content Include="timovi\robotika1.JPG" />
+    <Content Include="timovi\robotika2.JPG" />
+    <Content Include="timovi\robotika3.JPG" />
+    <Content Include="timovi\rukomet1.jpg" />
+    <Content Include="timovi\rukomet2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PdfPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Profesor.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Profesori.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Smerovi.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Studenti.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Timovi.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Vesti.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data.RT">
+      <HintPath>..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.9.6\Assemblies\RT\MySql.Data.RT.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
+    <VisualStudioVersion>12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

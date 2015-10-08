@@ -1,0 +1,883 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>NIKOLA</Machine>
+    <WindowsUser>Nikola</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>455556</PackageIdentityName>
+    <RegisteredManifestChecksum>2C1D1D3C4F35C10A4B817155B6F8D9F64242CCBF7F9BA28FA45375582E013030</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>455556_1.0.0.0_neutral__0fd3a3vqy3zmj</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>455556_0fd3a3vqy3zmj!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>455556</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Milos</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-08-11T17:18:06.598</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\bin\Debug\designIdea002.exe">
+      <PackagePath>designIdea002.exe</PackagePath>
+      <Modified>2015-10-06T20:23:33.083</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\MySQL\MySQL Connector Net 6.9.6\Assemblies\RT\MySql.Data.RT.dll">
+      <PackagePath>MySql.Data.RT.dll</PackagePath>
+      <Modified>2015-02-17T17:45:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\100.jpg">
+      <PackagePath>adresar\100.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.506</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\102.jpg">
+      <PackagePath>adresar\102.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.509</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\103.jpg">
+      <PackagePath>adresar\103.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.512</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\104.jpg">
+      <PackagePath>adresar\104.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.516</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\105.jpg">
+      <PackagePath>adresar\105.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.519</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\107.jpg">
+      <PackagePath>adresar\107.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.522</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\108.jpg">
+      <PackagePath>adresar\108.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.525</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\109.jpg">
+      <PackagePath>adresar\109.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.528</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\110.jpg">
+      <PackagePath>adresar\110.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.531</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\111.jpg">
+      <PackagePath>adresar\111.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.534</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\115.jpg">
+      <PackagePath>adresar\115.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.537</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\116.jpg">
+      <PackagePath>adresar\116.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.540</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\118.jpg">
+      <PackagePath>adresar\118.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.543</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\119.jpg">
+      <PackagePath>adresar\119.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.547</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\13.jpg">
+      <PackagePath>adresar\13.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.339</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\14.jpg">
+      <PackagePath>adresar\14.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.342</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\16.jpg">
+      <PackagePath>adresar\16.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.345</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\25.jpg">
+      <PackagePath>adresar\25.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.348</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\27.jpg">
+      <PackagePath>adresar\27.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.352</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\28.jpg">
+      <PackagePath>adresar\28.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.355</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\29.jpg">
+      <PackagePath>adresar\29.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.358</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\3.jpg">
+      <PackagePath>adresar\3.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.328</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\33.jpg">
+      <PackagePath>adresar\33.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.361</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\34.jpg">
+      <PackagePath>adresar\34.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.365</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\35.jpg">
+      <PackagePath>adresar\35.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.367</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\38.jpg">
+      <PackagePath>adresar\38.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.371</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\39.jpg">
+      <PackagePath>adresar\39.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.374</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\4.jpg">
+      <PackagePath>adresar\4.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.332</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\40.jpg">
+      <PackagePath>adresar\40.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.377</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\41.jpg">
+      <PackagePath>adresar\41.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.380</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\44.jpg">
+      <PackagePath>adresar\44.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.383</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\45.jpg">
+      <PackagePath>adresar\45.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.386</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\46.jpg">
+      <PackagePath>adresar\46.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.390</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\52.jpg">
+      <PackagePath>adresar\52.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.392</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\55.jpg">
+      <PackagePath>adresar\55.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.395</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\56.jpg">
+      <PackagePath>adresar\56.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.398</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\60.jpg">
+      <PackagePath>adresar\60.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.401</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\63.jpg">
+      <PackagePath>adresar\63.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.405</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\66.jpg">
+      <PackagePath>adresar\66.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.409</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\67.jpg">
+      <PackagePath>adresar\67.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.412</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\68.jpg">
+      <PackagePath>adresar\68.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.415</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\69.jpg">
+      <PackagePath>adresar\69.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.419</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\71.jpg">
+      <PackagePath>adresar\71.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.423</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\72.jpg">
+      <PackagePath>adresar\72.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.427</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\73.jpg">
+      <PackagePath>adresar\73.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.430</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\75.jpg">
+      <PackagePath>adresar\75.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.433</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\77.jpg">
+      <PackagePath>adresar\77.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.436</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\78.jpg">
+      <PackagePath>adresar\78.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.439</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\8.jpg">
+      <PackagePath>adresar\8.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.335</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\80.jpg">
+      <PackagePath>adresar\80.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.443</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\81.jpg">
+      <PackagePath>adresar\81.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.445</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\83.jpg">
+      <PackagePath>adresar\83.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.448</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\85.jpg">
+      <PackagePath>adresar\85.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.451</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\86.jpg">
+      <PackagePath>adresar\86.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.454</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\87.jpg">
+      <PackagePath>adresar\87.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.457</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\88.jpg">
+      <PackagePath>adresar\88.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.477</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\89.jpg">
+      <PackagePath>adresar\89.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.480</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\91.jpg">
+      <PackagePath>adresar\91.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.483</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\93.jpg">
+      <PackagePath>adresar\93.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.486</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\95.jpg">
+      <PackagePath>adresar\95.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.490</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\96.jpg">
+      <PackagePath>adresar\96.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.493</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\97.jpg">
+      <PackagePath>adresar\97.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.496</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\98.jpg">
+      <PackagePath>adresar\98.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.499</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\99.jpg">
+      <PackagePath>adresar\99.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.502</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\muskarac.jpg">
+      <PackagePath>adresar\muskarac.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.550</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\zena.jpg">
+      <PackagePath>adresar\zena.jpg</PackagePath>
+      <Modified>2015-07-07T16:20:30.553</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\10384128_10155250556365627_3823687141919744211_n.jpg">
+      <PackagePath>Assets\10384128_10155250556365627_3823687141919744211_n.jpg</PackagePath>
+      <Modified>2015-07-07T16:22:17.337</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\104.jpg">
+      <PackagePath>Assets\104.jpg</PackagePath>
+      <Modified>2015-07-07T16:22:17.331</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\10406375_10155034910910627_8094214467486408757_n.jpg">
+      <PackagePath>Assets\10406375_10155034910910627_8094214467486408757_n.jpg</PackagePath>
+      <Modified>2015-07-07T16:22:17.340</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\10898062_10205305253966229_2019889139822974912_n.jpg">
+      <PackagePath>Assets\10898062_10205305253966229_2019889139822974912_n.jpg</PackagePath>
+      <Modified>2015-07-07T16:22:17.343</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\1103970794414.jpg">
+      <PackagePath>Assets\1103970794414.jpg</PackagePath>
+      <Modified>2015-07-07T16:22:17.346</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\1412968850040.jpg">
+      <PackagePath>Assets\1412968850040.jpg</PackagePath>
+      <Modified>2015-07-07T16:22:17.349</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\1463490_683783354980353_1184350003_n.jpg">
+      <PackagePath>Assets\1463490_683783354980353_1184350003_n.jpg</PackagePath>
+      <Modified>2015-07-07T16:22:17.334</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\2411952715280.jpg">
+      <PackagePath>Assets\2411952715280.jpg</PackagePath>
+      <Modified>2015-07-07T16:22:17.352</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\5_1.jpg">
+      <PackagePath>Assets\5_1.jpg</PackagePath>
+      <Modified>2015-07-07T16:22:17.327</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\aleksandar mitrović.jpg">
+      <PackagePath>Assets\aleksandar mitrović.jpg</PackagePath>
+      <Modified>2015-07-08T06:24:01.487</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\aleksandarkaretic.JPG">
+      <PackagePath>Assets\aleksandarkaretic.JPG</PackagePath>
+      <Modified>2015-07-08T06:23:23.318</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\asuv.jpg">
+      <PackagePath>Assets\asuv.jpg</PackagePath>
+      <Modified>2015-07-07T16:22:17.356</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\avt-pozadina.JPG">
+      <PackagePath>Assets\avt-pozadina.JPG</PackagePath>
+      <Modified>2015-07-07T16:22:17.364</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\djordjemilosevic.JPG">
+      <PackagePath>Assets\djordjemilosevic.JPG</PackagePath>
+      <Modified>2015-07-08T06:23:23.329</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\djurdje kovačević.jpg">
+      <PackagePath>Assets\djurdje kovačević.jpg</PackagePath>
+      <Modified>2015-07-08T06:24:16.508</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\dragutin dimić.jpg">
+      <PackagePath>Assets\dragutin dimić.jpg</PackagePath>
+      <Modified>2015-07-08T06:24:16.522</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\dušan vučić.jpg">
+      <PackagePath>Assets\dušan vučić.jpg</PackagePath>
+      <Modified>2015-07-08T06:24:16.537</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\filip stevanović.jpg">
+      <PackagePath>Assets\filip stevanović.jpg</PackagePath>
+      <Modified>2015-07-08T06:24:01.492</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\filipdjajic.JPG">
+      <PackagePath>Assets\filipdjajic.JPG</PackagePath>
+      <Modified>2015-07-08T06:23:23.336</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\futsal-pozadina.jpg">
+      <PackagePath>Assets\futsal-pozadina.jpg</PackagePath>
+      <Modified>2015-07-07T16:22:17.383</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\futsal1.jpg">
+      <PackagePath>Assets\futsal1.jpg</PackagePath>
+      <Modified>2015-07-07T16:22:17.376</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\futsal2.jpg">
+      <PackagePath>Assets\futsal2.jpg</PackagePath>
+      <Modified>2015-07-07T16:22:17.379</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\ivan palijan.jpg">
+      <PackagePath>Assets\ivan palijan.jpg</PackagePath>
+      <Modified>2015-07-08T06:24:01.496</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\jovan jovanovi.jpg">
+      <PackagePath>Assets\jovan jovanovi.jpg</PackagePath>
+      <Modified>2015-07-08T06:23:41.389</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\kosarka_pozadina.jpg">
+      <PackagePath>Assets\kosarka_pozadina.jpg</PackagePath>
+      <Modified>2015-07-07T16:22:17.389</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\kosta šotić.jpg">
+      <PackagePath>Assets\kosta šotić.jpg</PackagePath>
+      <Modified>2015-07-08T06:24:16.544</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\lazar donić.jpg">
+      <PackagePath>Assets\lazar donić.jpg</PackagePath>
+      <Modified>2015-07-08T06:24:16.551</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\lazarcolovic.JPG">
+      <PackagePath>Assets\lazarcolovic.JPG</PackagePath>
+      <Modified>2015-07-08T06:23:23.342</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\LogoSkole.jpg">
+      <PackagePath>Assets\LogoSkole.jpg</PackagePath>
+      <Modified>2015-07-07T16:22:17.400</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\luka milovanović.jpg">
+      <PackagePath>Assets\luka milovanović.jpg</PackagePath>
+      <Modified>2015-07-08T06:24:01.501</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\marko štrkalj.jpg">
+      <PackagePath>Assets\marko štrkalj.jpg</PackagePath>
+      <Modified>2015-07-08T06:24:16.559</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\markokostic.JPG">
+      <PackagePath>Assets\markokostic.JPG</PackagePath>
+      <Modified>2015-07-08T06:23:23.350</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\milan zelenović.jpg">
+      <PackagePath>Assets\milan zelenović.jpg</PackagePath>
+      <Modified>2015-07-08T06:23:41.395</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\milanjokic.JPG">
+      <PackagePath>Assets\milanjokic.JPG</PackagePath>
+      <Modified>2015-07-08T06:23:23.354</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\milenko jović.jpg">
+      <PackagePath>Assets\milenko jović.jpg</PackagePath>
+      <Modified>2015-07-08T06:24:01.420</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\milenko vujković.jpg">
+      <PackagePath>Assets\milenko vujković.jpg</PackagePath>
+      <Modified>2015-07-08T06:24:16.572</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\milijana nešić.jpg">
+      <PackagePath>Assets\milijana nešić.jpg</PackagePath>
+      <Modified>2015-07-08T06:24:01.427</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\miloscvjetan.JPG">
+      <PackagePath>Assets\miloscvjetan.JPG</PackagePath>
+      <Modified>2015-07-08T06:23:23.359</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\milossimic.JPG">
+      <PackagePath>Assets\milossimic.JPG</PackagePath>
+      <Modified>2015-07-08T06:23:23.369</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\miloš čizmić.jpg">
+      <PackagePath>Assets\miloš čizmić.jpg</PackagePath>
+      <Modified>2015-07-08T06:24:01.434</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\Nenad drekalovic.jpg">
+      <PackagePath>Assets\Nenad drekalovic.jpg</PackagePath>
+      <Modified>2015-07-08T06:24:01.444</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\nikola bakić.jpg">
+      <PackagePath>Assets\nikola bakić.jpg</PackagePath>
+      <Modified>2015-07-08T06:23:41.401</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\nikola marčeta.jpg">
+      <PackagePath>Assets\nikola marčeta.jpg</PackagePath>
+      <Modified>2015-07-08T06:24:16.578</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\nina lakičin.jpg">
+      <PackagePath>Assets\nina lakičin.jpg</PackagePath>
+      <Modified>2015-07-08T06:24:01.452</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\Noise-Light-Grey-Tileable-Pattern-For-Website-Background.jpg">
+      <PackagePath>Assets\Noise-Light-Grey-Tileable-Pattern-For-Website-Background.jpg</PackagePath>
+      <Modified>2015-07-07T16:22:17.412</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\odbojka.jpg">
+      <PackagePath>Assets\odbojka.jpg</PackagePath>
+      <Modified>2015-07-07T16:22:17.414</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\radivoje Lacković.jpg">
+      <PackagePath>Assets\radivoje Lacković.jpg</PackagePath>
+      <Modified>2015-07-08T06:24:16.583</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\radojica drekalović.jpg">
+      <PackagePath>Assets\radojica drekalović.jpg</PackagePath>
+      <Modified>2015-07-08T06:24:01.458</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\rt.jpg">
+      <PackagePath>Assets\rt.jpg</PackagePath>
+      <Modified>2015-07-07T16:22:17.453</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\rukomet.jpg">
+      <PackagePath>Assets\rukomet.jpg</PackagePath>
+      <Modified>2015-07-07T16:22:17.458</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\siniša stančić.jpg">
+      <PackagePath>Assets\siniša stančić.jpg</PackagePath>
+      <Modified>2015-07-08T06:23:41.417</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\sneža veselinović.jpg">
+      <PackagePath>Assets\sneža veselinović.jpg</PackagePath>
+      <Modified>2015-07-08T06:24:01.460</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\stefan kuzmanović.jpg">
+      <PackagePath>Assets\stefan kuzmanović.jpg</PackagePath>
+      <Modified>2015-07-08T06:23:41.424</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\stefan lazarević.jpg">
+      <PackagePath>Assets\stefan lazarević.jpg</PackagePath>
+      <Modified>2015-07-08T06:24:16.588</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\stoniTenis.jpg">
+      <PackagePath>Assets\stoniTenis.jpg</PackagePath>
+      <Modified>2015-07-07T16:22:17.470</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\Telenor-Logo_0.jpg">
+      <PackagePath>Assets\Telenor-Logo_0.jpg</PackagePath>
+      <Modified>2015-07-07T16:22:17.488</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\test1.jpg">
+      <PackagePath>Assets\test1.jpg</PackagePath>
+      <Modified>2015-07-07T16:22:17.491</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\test11.jpg">
+      <PackagePath>Assets\test11.jpg</PackagePath>
+      <Modified>2015-07-07T16:22:17.493</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\vasilijedjokic.JPG">
+      <PackagePath>Assets\vasilijedjokic.JPG</PackagePath>
+      <Modified>2015-07-08T06:23:23.373</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\vidoje gavrilović.jpg">
+      <PackagePath>Assets\vidoje gavrilović.jpg</PackagePath>
+      <Modified>2015-07-08T06:23:41.430</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\vojin ivanović.jpg">
+      <PackagePath>Assets\vojin ivanović.jpg</PackagePath>
+      <Modified>2015-07-08T06:24:16.593</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\zoran dragić.jpg">
+      <PackagePath>Assets\zoran dragić.jpg</PackagePath>
+      <Modified>2015-07-08T06:24:01.476</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\željko čvarković.jpg">
+      <PackagePath>Assets\željko čvarković.jpg</PackagePath>
+      <Modified>2015-07-08T06:24:01.465</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\Александар Митровић АВТ 2. година.jpg">
+      <PackagePath>Assets\Александар Митровић АВТ 2. година.jpg</PackagePath>
+      <Modified>2015-07-08T06:56:42.046</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\ана ранђеловић.jpg">
+      <PackagePath>Assets\ана ранђеловић.jpg</PackagePath>
+      <Modified>2015-07-08T06:24:01.482</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\Владимир Граховац ЕЛИТЕ 1. година.jpg">
+      <PackagePath>Assets\Владимир Граховац ЕЛИТЕ 1. година.jpg</PackagePath>
+      <Modified>2015-07-08T06:56:42.017</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\Добрица Петрић АСУВ 3. година.jpg">
+      <PackagePath>Assets\Добрица Петрић АСУВ 3. година.jpg</PackagePath>
+      <Modified>2015-07-08T06:56:42.024</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\Милица Тонић ЕПО 1. година.jpg">
+      <PackagePath>Assets\Милица Тонић ЕПО 1. година.jpg</PackagePath>
+      <Modified>2015-07-08T06:56:42.032</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\Милош Митровић АСУВ 3. година.jpg">
+      <PackagePath>Assets\Милош Митровић АСУВ 3. година.jpg</PackagePath>
+      <Modified>2015-07-08T06:56:42.039</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\avt-pozadina.JPG">
+      <PackagePath>avt-pozadina.JPG</PackagePath>
+      <Modified>2015-06-14T21:29:50.266</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\smerovi\asuv.jpg">
+      <PackagePath>smerovi\asuv.jpg</PackagePath>
+      <Modified>2015-07-07T16:39:03.294</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\smerovi\avt.jpg">
+      <PackagePath>smerovi\avt.jpg</PackagePath>
+      <Modified>2015-07-07T16:39:03.298</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\smerovi\elite.jpg">
+      <PackagePath>smerovi\elite.jpg</PackagePath>
+      <Modified>2015-07-07T16:39:03.301</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\smerovi\epo.jpg">
+      <PackagePath>smerovi\epo.jpg</PackagePath>
+      <Modified>2015-07-07T16:39:03.305</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\smerovi\meha.jpg">
+      <PackagePath>smerovi\meha.jpg</PackagePath>
+      <Modified>2015-07-07T16:39:03.309</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\smerovi\mtdtv.jpg">
+      <PackagePath>smerovi\mtdtv.jpg</PackagePath>
+      <Modified>2015-07-07T16:39:03.312</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\smerovi\net.jpg">
+      <PackagePath>smerovi\net.jpg</PackagePath>
+      <Modified>2015-07-07T16:39:03.371</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\smerovi\nrt.jpg">
+      <PackagePath>smerovi\nrt.jpg</PackagePath>
+      <Modified>2015-07-07T16:39:03.374</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\smerovi\nrtd.jpg">
+      <PackagePath>smerovi\nrtd.jpg</PackagePath>
+      <Modified>2015-07-07T16:39:03.378</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\smerovi\rt.jpg">
+      <PackagePath>smerovi\rt.jpg</PackagePath>
+      <Modified>2015-07-07T16:39:03.381</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\smerovi\siks.jpg">
+      <PackagePath>smerovi\siks.jpg</PackagePath>
+      <Modified>2015-07-07T16:39:03.385</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\smerovi\sselite.jpg">
+      <PackagePath>smerovi\sselite.jpg</PackagePath>
+      <Modified>2015-07-07T16:39:03.388</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\smerovi\ssnet.jpg">
+      <PackagePath>smerovi\ssnet.jpg</PackagePath>
+      <Modified>2015-07-07T16:39:03.415</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\smerovi\ssnrt.jpg">
+      <PackagePath>smerovi\ssnrt.jpg</PackagePath>
+      <Modified>2015-07-07T16:39:03.441</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\timovi\10k.jpg">
+      <PackagePath>timovi\10k.jpg</PackagePath>
+      <Modified>2015-07-08T06:25:20.452</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\timovi\casopis1.jpg">
+      <PackagePath>timovi\casopis1.jpg</PackagePath>
+      <Modified>2015-07-08T06:25:20.478</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\timovi\casopis2.JPG">
+      <PackagePath>timovi\casopis2.JPG</PackagePath>
+      <Modified>2015-07-08T06:25:20.558</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\timovi\kosarka1.jpg">
+      <PackagePath>timovi\kosarka1.jpg</PackagePath>
+      <Modified>2015-07-08T06:25:20.741</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\timovi\kosarka2.jpg">
+      <PackagePath>timovi\kosarka2.jpg</PackagePath>
+      <Modified>2015-07-08T06:25:20.770</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\timovi\odbojka1.jpg">
+      <PackagePath>timovi\odbojka1.jpg</PackagePath>
+      <Modified>2015-07-08T06:25:20.777</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\timovi\odbojka2.jpg">
+      <PackagePath>timovi\odbojka2.jpg</PackagePath>
+      <Modified>2015-07-08T06:25:20.796</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\timovi\parlament1.jpg">
+      <PackagePath>timovi\parlament1.jpg</PackagePath>
+      <Modified>2015-07-08T06:25:20.812</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\timovi\robotika1.JPG">
+      <PackagePath>timovi\robotika1.JPG</PackagePath>
+      <Modified>2015-07-08T06:25:20.989</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\timovi\robotika2.JPG">
+      <PackagePath>timovi\robotika2.JPG</PackagePath>
+      <Modified>2015-07-08T06:25:21.254</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\timovi\robotika3.JPG">
+      <PackagePath>timovi\robotika3.JPG</PackagePath>
+      <Modified>2015-07-08T06:25:21.434</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\timovi\rukomet1.jpg">
+      <PackagePath>timovi\rukomet1.jpg</PackagePath>
+      <Modified>2015-07-08T06:25:21.510</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\timovi\rukomet2.jpg">
+      <PackagePath>timovi\rukomet2.jpg</PackagePath>
+      <Modified>2015-07-08T06:25:21.521</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\10ka.png">
+      <PackagePath>Assets\10ka.png</PackagePath>
+      <Modified>2015-07-07T16:53:36.220</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\awakening_of_heroes.png">
+      <PackagePath>Assets\awakening_of_heroes.png</PackagePath>
+      <Modified>2015-07-07T16:22:17.367</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\casopis.png">
+      <PackagePath>Assets\casopis.png</PackagePath>
+      <Modified>2015-07-07T16:22:17.369</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\DarkGray.png">
+      <PackagePath>Assets\DarkGray.png</PackagePath>
+      <Modified>2015-07-01T15:43:01.165</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\fudbal.png">
+      <PackagePath>Assets\fudbal.png</PackagePath>
+      <Modified>2015-07-07T16:22:17.373</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\kosarka.png">
+      <PackagePath>Assets\kosarka.png</PackagePath>
+      <Modified>2015-07-07T16:22:17.385</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\lazar_c.PNG">
+      <PackagePath>Assets\lazar_c.PNG</PackagePath>
+      <Modified>2015-07-07T16:22:17.392</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\LightGray.png">
+      <PackagePath>Assets\LightGray.png</PackagePath>
+      <Modified>2015-07-01T15:42:55.764</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-07T16:22:17.395</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\logo1.png">
+      <PackagePath>Assets\logo1.png</PackagePath>
+      <Modified>2015-07-07T16:22:17.397</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\logoViser.png">
+      <PackagePath>Assets\logoViser.png</PackagePath>
+      <Modified>2015-07-07T16:22:17.403</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\marko_g.PNG">
+      <PackagePath>Assets\marko_g.PNG</PackagePath>
+      <Modified>2015-07-07T16:22:17.406</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\MediumGray.png">
+      <PackagePath>Assets\MediumGray.png</PackagePath>
+      <Modified>2015-07-01T15:42:59.500</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\milos1.PNG">
+      <PackagePath>Assets\milos1.PNG</PackagePath>
+      <Modified>2015-07-07T16:22:17.409</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\odbojka.png">
+      <PackagePath>Assets\odbojka.png</PackagePath>
+      <Modified>2015-07-07T16:22:17.418</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\parlament.png">
+      <PackagePath>Assets\parlament.png</PackagePath>
+      <Modified>2015-07-07T16:22:17.421</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\PNGinsipiracija__0000_Layer-5.png">
+      <PackagePath>Assets\PNGinsipiracija__0000_Layer-5.png</PackagePath>
+      <Modified>2015-07-07T16:22:17.425</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\PNGinsipiracija__0002_Layer-4.png">
+      <PackagePath>Assets\PNGinsipiracija__0002_Layer-4.png</PackagePath>
+      <Modified>2015-07-07T16:22:17.427</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\PNGinsipiracija__0003_Layer-3.png">
+      <PackagePath>Assets\PNGinsipiracija__0003_Layer-3.png</PackagePath>
+      <Modified>2015-07-07T16:22:17.430</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\PNGinsipiracija__0004_Layer-2.png">
+      <PackagePath>Assets\PNGinsipiracija__0004_Layer-2.png</PackagePath>
+      <Modified>2015-07-07T16:22:17.432</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\PNGinsipiracija__0016_Layer-1.png">
+      <PackagePath>Assets\PNGinsipiracija__0016_Layer-1.png</PackagePath>
+      <Modified>2015-07-07T16:22:17.435</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\pozadina003.png">
+      <PackagePath>Assets\pozadina003.png</PackagePath>
+      <Modified>2015-07-07T16:22:17.438</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\pozadina010.png">
+      <PackagePath>Assets\pozadina010.png</PackagePath>
+      <Modified>2015-07-07T16:22:17.444</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\pozadina5.png">
+      <PackagePath>Assets\pozadina5.png</PackagePath>
+      <Modified>2015-07-07T16:22:17.441</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\robotika.png">
+      <PackagePath>Assets\robotika.png</PackagePath>
+      <Modified>2015-07-07T16:22:17.449</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\rukomet.png">
+      <PackagePath>Assets\rukomet.png</PackagePath>
+      <Modified>2015-07-07T16:22:17.461</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-07T16:22:17.464</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-07T16:22:17.467</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\stoniTenis.png">
+      <PackagePath>Assets\stoniTenis.png</PackagePath>
+      <Modified>2015-07-07T16:22:17.473</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-07T16:22:17.477</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\veljko_m.PNG">
+      <PackagePath>Assets\veljko_m.PNG</PackagePath>
+      <Modified>2015-07-07T16:22:17.496</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\Avicii - Wake Me Up Official Teaser 1.mp4">
+      <PackagePath>Assets\Avicii - Wake Me Up Official Teaser 1.mp4</PackagePath>
+      <Modified>2015-07-07T16:22:17.361</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\proba.txt">
+      <PackagePath>Assets\proba.txt</PackagePath>
+      <Modified>2015-07-07T16:22:17.447</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+      <Modified>2015-07-01T15:42:31.404</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\StudentskeVesti.xml">
+      <PackagePath>Assets\StudentskeVesti.xml</PackagePath>
+      <Modified>2015-07-07T16:22:17.480</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\StudentskeVesti2.xml">
+      <PackagePath>Assets\StudentskeVesti2.xml</PackagePath>
+      <Modified>2015-07-07T16:22:17.485</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\StudentskeVesti1.xml">
+      <PackagePath>Assets\StudentskeVesti1.xml</PackagePath>
+      <Modified>2015-07-07T16:22:17.482</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\StudentskeVesti.xml">
+      <PackagePath>StudentskeVesti.xml</PackagePath>
+      <Modified>2015-07-07T16:08:43.118</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-07-07T16:31:28.665</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-07-08T07:37:43.551</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\bin\Debug\PdfPage.xbf">
+      <PackagePath>PdfPage.xbf</PackagePath>
+      <Modified>2015-07-07T17:33:44.545</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\bin\Debug\Profesor.xbf">
+      <PackagePath>Profesor.xbf</PackagePath>
+      <Modified>2015-07-08T07:40:29.775</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\bin\Debug\Profesori.xbf">
+      <PackagePath>Profesori.xbf</PackagePath>
+      <Modified>2015-07-07T16:31:28.666</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\bin\Debug\Smerovi.xbf">
+      <PackagePath>Smerovi.xbf</PackagePath>
+      <Modified>2015-07-08T07:41:13.366</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\bin\Debug\Studenti.xbf">
+      <PackagePath>Studenti.xbf</PackagePath>
+      <Modified>2015-07-07T16:31:28.666</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\bin\Debug\Timovi.xbf">
+      <PackagePath>Timovi.xbf</PackagePath>
+      <Modified>2015-07-08T07:37:14.728</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\bin\Debug\Vesti.xbf">
+      <PackagePath>Vesti.xbf</PackagePath>
+      <Modified>2015-07-07T16:31:28.666</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-10-06T20:23:33.651</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

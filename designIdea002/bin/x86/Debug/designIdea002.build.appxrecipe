@@ -1,0 +1,489 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>NIKOLA</Machine>
+    <WindowsUser>tabla</WindowsUser>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>036953b6-b1bb-4032-a620-610a9b16194f</PackageIdentityName>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\bin\x86\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\bin\x86\Debug\designIdea002.exe">
+      <PackagePath>designIdea002.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\MySQL\MySQL Connector Net 6.9.6\Assemblies\RT\MySql.Data.RT.dll">
+      <PackagePath>MySql.Data.RT.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\100.jpg">
+      <PackagePath>adresar\100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\102.jpg">
+      <PackagePath>adresar\102.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\103.jpg">
+      <PackagePath>adresar\103.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\104.jpg">
+      <PackagePath>adresar\104.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\105.jpg">
+      <PackagePath>adresar\105.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\107.jpg">
+      <PackagePath>adresar\107.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\108.jpg">
+      <PackagePath>adresar\108.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\109.jpg">
+      <PackagePath>adresar\109.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\110.jpg">
+      <PackagePath>adresar\110.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\111.jpg">
+      <PackagePath>adresar\111.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\115.jpg">
+      <PackagePath>adresar\115.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\116.jpg">
+      <PackagePath>adresar\116.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\118.jpg">
+      <PackagePath>adresar\118.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\119.jpg">
+      <PackagePath>adresar\119.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\13.jpg">
+      <PackagePath>adresar\13.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\14.jpg">
+      <PackagePath>adresar\14.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\16.jpg">
+      <PackagePath>adresar\16.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\25.jpg">
+      <PackagePath>adresar\25.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\27.jpg">
+      <PackagePath>adresar\27.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\28.jpg">
+      <PackagePath>adresar\28.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\29.jpg">
+      <PackagePath>adresar\29.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\3.jpg">
+      <PackagePath>adresar\3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\33.jpg">
+      <PackagePath>adresar\33.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\34.jpg">
+      <PackagePath>adresar\34.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\35.jpg">
+      <PackagePath>adresar\35.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\38.jpg">
+      <PackagePath>adresar\38.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\39.jpg">
+      <PackagePath>adresar\39.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\4.jpg">
+      <PackagePath>adresar\4.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\40.jpg">
+      <PackagePath>adresar\40.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\41.jpg">
+      <PackagePath>adresar\41.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\44.jpg">
+      <PackagePath>adresar\44.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\45.jpg">
+      <PackagePath>adresar\45.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\46.jpg">
+      <PackagePath>adresar\46.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\52.jpg">
+      <PackagePath>adresar\52.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\55.jpg">
+      <PackagePath>adresar\55.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\56.jpg">
+      <PackagePath>adresar\56.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\60.jpg">
+      <PackagePath>adresar\60.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\63.jpg">
+      <PackagePath>adresar\63.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\66.jpg">
+      <PackagePath>adresar\66.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\67.jpg">
+      <PackagePath>adresar\67.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\68.jpg">
+      <PackagePath>adresar\68.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\69.jpg">
+      <PackagePath>adresar\69.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\71.jpg">
+      <PackagePath>adresar\71.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\72.jpg">
+      <PackagePath>adresar\72.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\73.jpg">
+      <PackagePath>adresar\73.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\75.jpg">
+      <PackagePath>adresar\75.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\77.jpg">
+      <PackagePath>adresar\77.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\78.jpg">
+      <PackagePath>adresar\78.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\8.jpg">
+      <PackagePath>adresar\8.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\80.jpg">
+      <PackagePath>adresar\80.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\81.jpg">
+      <PackagePath>adresar\81.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\83.jpg">
+      <PackagePath>adresar\83.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\85.jpg">
+      <PackagePath>adresar\85.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\86.jpg">
+      <PackagePath>adresar\86.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\87.jpg">
+      <PackagePath>adresar\87.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\88.jpg">
+      <PackagePath>adresar\88.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\89.jpg">
+      <PackagePath>adresar\89.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\91.jpg">
+      <PackagePath>adresar\91.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\93.jpg">
+      <PackagePath>adresar\93.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\95.jpg">
+      <PackagePath>adresar\95.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\96.jpg">
+      <PackagePath>adresar\96.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\97.jpg">
+      <PackagePath>adresar\97.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\98.jpg">
+      <PackagePath>adresar\98.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\99.jpg">
+      <PackagePath>adresar\99.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\muskarac.jpg">
+      <PackagePath>adresar\muskarac.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\adresar\zena.jpg">
+      <PackagePath>adresar\zena.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\10384128_10155250556365627_3823687141919744211_n.jpg">
+      <PackagePath>Assets\10384128_10155250556365627_3823687141919744211_n.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\104.jpg">
+      <PackagePath>Assets\104.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\10406375_10155034910910627_8094214467486408757_n.jpg">
+      <PackagePath>Assets\10406375_10155034910910627_8094214467486408757_n.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\10898062_10205305253966229_2019889139822974912_n.jpg">
+      <PackagePath>Assets\10898062_10205305253966229_2019889139822974912_n.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\1103970794414.jpg">
+      <PackagePath>Assets\1103970794414.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\1412968850040.jpg">
+      <PackagePath>Assets\1412968850040.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\1463490_683783354980353_1184350003_n.jpg">
+      <PackagePath>Assets\1463490_683783354980353_1184350003_n.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\2411952715280.jpg">
+      <PackagePath>Assets\2411952715280.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\5_1.jpg">
+      <PackagePath>Assets\5_1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\asuv.jpg">
+      <PackagePath>Assets\asuv.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\avt-pozadina.JPG">
+      <PackagePath>Assets\avt-pozadina.JPG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\futsal-pozadina.jpg">
+      <PackagePath>Assets\futsal-pozadina.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\futsal1.jpg">
+      <PackagePath>Assets\futsal1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\futsal2.jpg">
+      <PackagePath>Assets\futsal2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\kosarka_pozadina.jpg">
+      <PackagePath>Assets\kosarka_pozadina.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\LogoSkole.jpg">
+      <PackagePath>Assets\LogoSkole.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\Noise-Light-Grey-Tileable-Pattern-For-Website-Background.jpg">
+      <PackagePath>Assets\Noise-Light-Grey-Tileable-Pattern-For-Website-Background.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\odbojka.jpg">
+      <PackagePath>Assets\odbojka.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\rt.jpg">
+      <PackagePath>Assets\rt.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\rukomet.jpg">
+      <PackagePath>Assets\rukomet.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\stoniTenis.jpg">
+      <PackagePath>Assets\stoniTenis.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\Telenor-Logo_0.jpg">
+      <PackagePath>Assets\Telenor-Logo_0.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\test1.jpg">
+      <PackagePath>Assets\test1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\test11.jpg">
+      <PackagePath>Assets\test11.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\avt-pozadina.JPG">
+      <PackagePath>avt-pozadina.JPG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\smerovi\asuv.jpg">
+      <PackagePath>smerovi\asuv.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\smerovi\avt.jpg">
+      <PackagePath>smerovi\avt.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\smerovi\elite.jpg">
+      <PackagePath>smerovi\elite.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\smerovi\epo.jpg">
+      <PackagePath>smerovi\epo.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\smerovi\meha.jpg">
+      <PackagePath>smerovi\meha.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\smerovi\mtdtv.jpg">
+      <PackagePath>smerovi\mtdtv.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\smerovi\net.jpg">
+      <PackagePath>smerovi\net.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\smerovi\nrt.jpg">
+      <PackagePath>smerovi\nrt.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\smerovi\nrtd.jpg">
+      <PackagePath>smerovi\nrtd.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\smerovi\rt.jpg">
+      <PackagePath>smerovi\rt.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\smerovi\siks.jpg">
+      <PackagePath>smerovi\siks.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\smerovi\sselite.jpg">
+      <PackagePath>smerovi\sselite.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\smerovi\ssnet.jpg">
+      <PackagePath>smerovi\ssnet.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\smerovi\ssnrt.jpg">
+      <PackagePath>smerovi\ssnrt.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\10ka.png">
+      <PackagePath>Assets\10ka.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\awakening_of_heroes.png">
+      <PackagePath>Assets\awakening_of_heroes.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\casopis.png">
+      <PackagePath>Assets\casopis.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\DarkGray.png">
+      <PackagePath>Assets\DarkGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\fudbal.png">
+      <PackagePath>Assets\fudbal.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\kosarka.png">
+      <PackagePath>Assets\kosarka.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\lazar_c.PNG">
+      <PackagePath>Assets\lazar_c.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\LightGray.png">
+      <PackagePath>Assets\LightGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\logo1.png">
+      <PackagePath>Assets\logo1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\logoViser.png">
+      <PackagePath>Assets\logoViser.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\marko_g.PNG">
+      <PackagePath>Assets\marko_g.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\MediumGray.png">
+      <PackagePath>Assets\MediumGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\milos1.PNG">
+      <PackagePath>Assets\milos1.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\odbojka.png">
+      <PackagePath>Assets\odbojka.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\parlament.png">
+      <PackagePath>Assets\parlament.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\PNGinsipiracija__0000_Layer-5.png">
+      <PackagePath>Assets\PNGinsipiracija__0000_Layer-5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\PNGinsipiracija__0002_Layer-4.png">
+      <PackagePath>Assets\PNGinsipiracija__0002_Layer-4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\PNGinsipiracija__0003_Layer-3.png">
+      <PackagePath>Assets\PNGinsipiracija__0003_Layer-3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\PNGinsipiracija__0004_Layer-2.png">
+      <PackagePath>Assets\PNGinsipiracija__0004_Layer-2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\PNGinsipiracija__0016_Layer-1.png">
+      <PackagePath>Assets\PNGinsipiracija__0016_Layer-1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\pozadina003.png">
+      <PackagePath>Assets\pozadina003.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\pozadina010.png">
+      <PackagePath>Assets\pozadina010.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\pozadina5.png">
+      <PackagePath>Assets\pozadina5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\robotika.png">
+      <PackagePath>Assets\robotika.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\rukomet.png">
+      <PackagePath>Assets\rukomet.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\stoniTenis.png">
+      <PackagePath>Assets\stoniTenis.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\veljko_m.PNG">
+      <PackagePath>Assets\veljko_m.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\Avicii - Wake Me Up Official Teaser 1.mp4">
+      <PackagePath>Assets\Avicii - Wake Me Up Official Teaser 1.mp4</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\proba.txt">
+      <PackagePath>Assets\proba.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\StudentskeVesti.xml">
+      <PackagePath>Assets\StudentskeVesti.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\StudentskeVesti2.xml">
+      <PackagePath>Assets\StudentskeVesti2.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\Assets\StudentskeVesti1.xml">
+      <PackagePath>Assets\StudentskeVesti1.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\StudentskeVesti.xml">
+      <PackagePath>StudentskeVesti.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\bin\x86\Debug\PdfPage.xbf">
+      <PackagePath>PdfPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\bin\x86\Debug\Profesor.xbf">
+      <PackagePath>Profesor.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\bin\x86\Debug\Profesori.xbf">
+      <PackagePath>Profesori.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\bin\x86\Debug\Smerovi.xbf">
+      <PackagePath>Smerovi.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\bin\x86\Debug\Studenti.xbf">
+      <PackagePath>Studenti.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\bin\x86\Debug\Timovi.xbf">
+      <PackagePath>Timovi.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\bin\x86\Debug\Vesti.xbf">
+      <PackagePath>Vesti.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabla\Desktop\designIdea002\designIdea002\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

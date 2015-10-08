@@ -1,0 +1,16 @@
+<vesti>
+	<vest id='2'>
+		<naslov>Frontmen SARS-a na AVT-u1</naslov>
+		<opis>Procitaj pricu o idejama, skolovanju, nasem studiju i saradnji skole sa Zarkom Kovacevicem</opis>
+		<tekst></tekst>
+		<mSlika></mSlika>
+		<vSlika>/Assets/10406375_10155034910910627_8094214467486408757_n.jpg</vSlika>
+	</vest>
+	<vest id='1'>
+	        <naslov>Laki RAGE</naslov>
+	        <opis>Seminarski rad sa kojim svi mozemo da se poistovetimo</opis>
+	        <tekst></tekst>
+	        <mSlika></mSlika>
+	        <vSlika>/Assets/10898062_10205305253966229_2019889139822974912_n.jpg</vSlika>
+	</vest>
+</vesti>

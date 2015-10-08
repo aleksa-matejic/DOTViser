@@ -1,0 +1,111 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="designIdea002.Profesor"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:designIdea002"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"                     >
+
+    <Frame>
+        <Frame.Background>
+            <ImageBrush ImageSource="Assets/avt-pozadina.jpg" Stretch="Fill" Opacity="0.2"></ImageBrush>
+        </Frame.Background>
+
+
+        <ScrollViewer HorizontalScrollMode="Auto" 
+              HorizontalScrollBarVisibility="Auto"
+              VerticalScrollMode="Disabled"
+              VerticalScrollBarVisibility="Hidden" ZoomMode="Disabled">
+            <Grid x:Name="gridProfesor">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"></ColumnDefinition>
+                    <ColumnDefinition Width="400"></ColumnDefinition>
+                    <ColumnDefinition Width="100"></ColumnDefinition>
+                    <ColumnDefinition Width="510"></ColumnDefinition>
+                    <ColumnDefinition Width="100"></ColumnDefinition>
+                    <ColumnDefinition Width="610"></ColumnDefinition>
+                    <ColumnDefinition Width="100"></ColumnDefinition>
+                    <!--<ColumnDefinition Width="610"></ColumnDefinition>
+                    <ColumnDefinition Width="100"></ColumnDefinition>-->
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="141"></RowDefinition>
+                    <RowDefinition Height="110"></RowDefinition>
+                    <RowDefinition Height="482"></RowDefinition>
+                    <RowDefinition Height="347"></RowDefinition>
+                </Grid.RowDefinitions>
+                <!--PRVO-->
+                <StackPanel Orientation="Horizontal" Grid.Column="1" Grid.ColumnSpan="3" >
+                    <TextBlock Margin="0,30,0,0" FontSize="50" Text="{Binding titula}"/>
+                    <TextBlock FontSize="50" Margin="10,30,0,0" Text="{Binding imePrezime}"/>
+                </StackPanel>
+                
+                <StackPanel Orientation="Vertical" Grid.Column="1" Grid.Row="1" Grid.RowSpan="2" HorizontalAlignment="Left">
+                    <Border Width="200" Height="200" HorizontalAlignment="Left" Margin="0,30,0,0">
+                        <Border.Background>
+                            <ImageBrush ImageSource="{Binding slika}" Stretch="Fill"></ImageBrush>
+                        </Border.Background>
+                    </Border>
+
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                        <AppBarButton x:ConnectionId='3' Icon="Mail" IsCompact="True"                             ></AppBarButton>
+                        <AppBarButton x:ConnectionId='4' Icon="Calendar" IsCompact="True"                               ></AppBarButton>
+                        <AppBarButton x:ConnectionId='5' Icon="Home" IsCompact="True"                               ></AppBarButton>
+                    </StackPanel>
+
+                    <TextBlock x:Name="mejl" TextWrapping="Wrap" FontSize="40" Margin="0,15,0,0"/>
+                </StackPanel>
+                <!--/PRVO-->
+                <!--DRUGO-->
+                <TextBlock Grid.Column="3" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Left" FontFamily="Segoi UI" FontSize="50">Биографија</TextBlock>
+                <StackPanel Orientation="Vertical" Grid.Row="2" Grid.Column="3" Grid.RowSpan="2">
+                    <!--<RichTextBlock TextWrapping="Wrap" FontSize="16">
+                        <Paragraph Margin="0,20,0,0">
+                            Александра Грујић (1975) је основну, средњу школу и Електротехнички факултет завршила у Београду. 
+                            Дипломирала је на смеру Енергетика, Електроенергетски системи 2000.године. Магистрирала је 2006. 
+                            године на Електротехничком факултету у Београду на тему: "Анализа метода прорачуна зоне заштите громобранске 
+                            инсталације објеката опште и посебне намене" под менторством проф. др Златана Стојковића.
+                        </Paragraph>
+                    </RichTextBlock>-->
+                    <TextBlock x:Name="tbBiografija" Text="{Binding biografija}" Margin="0,20,0,0" TextWrapping="Wrap" FontSize="16"></TextBlock>
+                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" FontFamily="Segoi UI" FontSize="50" Margin="0,50,0,20">Aктивности</TextBlock>
+                    <!--<RichTextBlock TextWrapping="Wrap" FontSize="16">
+                        <Paragraph Margin="0,20,0,0">
+                            Aleksandra Grujić je koautor jednog rada publikovanog u naučnom časopisu međunarodnog značaja sa SCI liste, 
+                                jedanaest radova publikovanih u zbornicina međunarodnih i regionalnih naučnih skupova, tri rada publikovana 
+                                u zbornicima skupova nacionalnog značaja i tri rada publikovana u naučnim domaćim časopisima.
+                        </Paragraph>
+                    </RichTextBlock>-->
+                    <TextBlock x:Name="tbAktivnosti" Text="{Binding aktivnost}" Margin="0,20,0,0" TextWrapping="Wrap" FontSize="16"></TextBlock>
+                </StackPanel>
+                <!--/DRUGO-->
+                <!--TRECE-->
+                <TextBlock Grid.Column="5" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Left" FontFamily="Segoi UI" FontSize="50">Списак предмета</TextBlock>
+                <ListView ScrollViewer.VerticalScrollMode="Enabled" Grid.Column="5" Grid.Row="2" Grid.RowSpan="2" Height="600" VerticalAlignment="Top" x:Name="lvPredmeti">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ListViewItem BorderThickness="4,0,0,0" BorderBrush="RoyalBlue" VerticalContentAlignment="Center" Padding="5,0,0,0">
+                                <TextBlock Text="{Binding naziv}" FontWeight="Bold" />
+                            </ListViewItem>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                    <!--<ListViewItem BorderThickness="4,0,0,0" BorderBrush="RoyalBlue" VerticalContentAlignment="Center" Padding="5,0,0,0">Дистрибуција и тржиште електричне енергије</ListViewItem>
+                    <ListViewItem BorderThickness="4,0,0,0" BorderBrush="RoyalBlue" VerticalContentAlignment="Center" Padding="5,0,0,0">Квалитет електричне енергије</ListViewItem>
+                    <ListViewItem BorderThickness="4,0,0,0" BorderBrush="RoyalBlue" VerticalContentAlignment="Center" Padding="5,0,0,0">Нове енергетске технологије</ListViewItem>
+                    <ListViewItem BorderThickness="4,0,0,0" BorderBrush="RoyalBlue" VerticalContentAlignment="Center" Padding="5,0,0,0">Обновљиви извори енергије</ListViewItem>
+                    <ListViewItem BorderThickness="4,0,0,0" BorderBrush="RoyalBlue" VerticalContentAlignment="Center" Padding="5,0,0,0">Стручна пракса</ListViewItem>
+                    <ListViewItem BorderThickness="4,0,0,0" BorderBrush="RoyalBlue" VerticalContentAlignment="Center" Padding="5,0,0,0">Технике високог напона</ListViewItem>
+                    <ListViewItem BorderThickness="4,0,0,0" BorderBrush="RoyalBlue" VerticalContentAlignment="Center" Padding="5,0,0,0">Технике високог напона</ListViewItem>-->
+                </ListView>
+                <!--/TRECE-->
+                <!--CETVRTO-->
+
+                <!--/CETVRTO-->
+                <AppBarButton x:ConnectionId='2' Icon="Back"                            Canvas.Left="20" Canvas.Top="20" Canvas.ZIndex="100" Margin="20,20,0,0"></AppBarButton>
+            </Grid>
+        </ScrollViewer>
+    </Frame>
+</Page>
+
