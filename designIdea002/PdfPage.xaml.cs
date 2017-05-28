@@ -23,6 +23,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
+using Windows.UI.Popups;
 
 // The Split Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234234
 
@@ -89,75 +90,97 @@ namespace designIdea002
         /// session.  The state will be null the first time a page is visited.</param>
         private async void navigationHelper_LoadState(object sender, LoadStateEventArgs e)
         {
-          
-                await LoadPdfFileAsync();
-            
+            string link = e.NavigationParameter as string;
+            // Aleksa: added try and catch
+            try
+            {
+                await MainPage.downloadPdf(link);
+            }
+            catch (Exception exc)
+            {
+                MessageDialog md = new MessageDialog("Нема интернет конекције!");
+                await md.ShowAsync();
+                Frame.Navigate(typeof(MainPage));
+            }
+            await LoadPdfFileAsync();
         }
         private PdfDocument pdfDocument;
 
         private async System.Threading.Tasks.Task LoadPdfFileAsync()
         {
-            try
+            // Aleksa TODO: test this with time
+            // TimeSpan ts = DateTime.Now.TimeOfDay;
+            // TimeSpan tsplus = new TimeSpan(ts.Hours, ts.Minutes, ts.Seconds + 30);
+
+            while ((t != true) /*|| (ts.Seconds == tsplus.Seconds)*/)
             {
-
-                StorageFile pdfFile = await ApplicationData.Current.LocalFolder.GetFileAsync("2.pdf");
-                //Load Pdf File
-                
-                pdfDocument = await PdfDocument.LoadFromFileAsync(pdfFile); ;
-
-
-                ObservableCollection<SampleDataItem> items = new ObservableCollection<SampleDataItem>();
-                this.DefaultViewModel["Items"] = items;
-
-                //StorageFolder tempFolderDel = ApplicationData.Current.TemporaryFolder;
-                // await   tempFolderDel.DeleteAsync(StorageDeleteOption.Default);
-
-                // Get the app's local folder.
-                //StorageFile localFile = await ApplicationData.Current.TemporaryFolder.GetFileAsync("ba4755e5-520b-42eb-bcf8-1f0cddd5e5ca.png");
-                //await localFile.DeleteAsync();
-
-                // Create a new subfolder in the current folder.
-                // Raise an exception if the folder already exists.
-                //string desiredName = "TempState2";
-                //StorageFolder newFolder = await localFolder.CreateFolderAsync(desiredName,CreationCollisionOption.FailIfExists);
-             
-                if (pdfDocument != null && pdfDocument.PageCount > 0)
+                // ts = DateTime.Now.TimeOfDay;
+                try
                 {
-                    string file = "";
-                    //Get Pdf page
-                    for (int pageIndex = 0; pageIndex < pdfDocument.PageCount; pageIndex++)
+
+                    StorageFile pdfFile = await ApplicationData.Current.LocalFolder.GetFileAsync("2.pdf");
+                    //Load Pdf File
+
+                    pdfDocument = await PdfDocument.LoadFromFileAsync(pdfFile); ;
+
+
+                    ObservableCollection<SampleDataItem> items = new ObservableCollection<SampleDataItem>();
+                    this.DefaultViewModel["Items"] = items;
+
+                    //StorageFolder tempFolderDel = ApplicationData.Current.TemporaryFolder;
+                    // await   tempFolderDel.DeleteAsync(StorageDeleteOption.Default);
+
+                    // Get the app's local folder.
+                    //StorageFile localFile = await ApplicationData.Current.TemporaryFolder.GetFileAsync("ba4755e5-520b-42eb-bcf8-1f0cddd5e5ca.png");
+                    //await localFile.DeleteAsync();
+
+                    // Create a new subfolder in the current folder.
+                    // Raise an exception if the folder already exists.
+                    //string desiredName = "TempState2";
+                    //StorageFolder newFolder = await localFolder.CreateFolderAsync(desiredName,CreationCollisionOption.FailIfExists);
+
+                    if (pdfDocument != null && pdfDocument.PageCount > 0)
                     {
-                        var pdfPage = pdfDocument.GetPage((uint)pageIndex);
-                        if (pdfPage != null)
+                        string file = "";
+                        //Get Pdf page
+                        for (int pageIndex = 0; pageIndex < pdfDocument.PageCount; pageIndex++)
                         {
-                            // next, generate a bitmap of the page
-                            StorageFolder tempFolder = ApplicationData.Current.TemporaryFolder;
-                            StorageFile pngFile = await tempFolder.CreateFileAsync((file=Guid.NewGuid().ToString() + ".png"), CreationCollisionOption.ReplaceExisting);
-                            files_for_Delete.Add(file);
-                            if (pngFile != null)
+                            var pdfPage = pdfDocument.GetPage((uint)pageIndex);
+                            if (pdfPage != null)
                             {
-                                IRandomAccessStream randomStream = await pngFile.OpenAsync(FileAccessMode.ReadWrite);
-                                PdfPageRenderOptions pdfPageRenderOptions = new PdfPageRenderOptions();
-                                pdfPageRenderOptions.DestinationWidth = (uint)(this.ActualWidth - 130);
-                                
-                                await pdfPage.RenderToStreamAsync(randomStream, pdfPageRenderOptions);
-                                await randomStream.FlushAsync();
-                                randomStream.Dispose();
-                                pdfPage.Dispose();
-                                items.Add(new SampleDataItem(
-                                    pageIndex.ToString(), 
-                                    pageIndex.ToString(), 
-                                    pngFile.Path));
+                                // next, generate a bitmap of the page
+                                StorageFolder tempFolder = ApplicationData.Current.TemporaryFolder;
+                                StorageFile pngFile = await tempFolder.CreateFileAsync((file = Guid.NewGuid().ToString() + ".png"), CreationCollisionOption.ReplaceExisting);
+                                files_for_Delete.Add(file);
+                                if (pngFile != null)
+                                {
+                                    IRandomAccessStream randomStream = await pngFile.OpenAsync(FileAccessMode.ReadWrite);
+                                    PdfPageRenderOptions pdfPageRenderOptions = new PdfPageRenderOptions();
+                                    pdfPageRenderOptions.DestinationWidth = (uint)(this.ActualWidth - 130);
+
+                                    await pdfPage.RenderToStreamAsync(randomStream, pdfPageRenderOptions);
+                                    await randomStream.FlushAsync();
+                                    randomStream.Dispose();
+                                    pdfPage.Dispose();
+                                    items.Add(new SampleDataItem(
+                                        pageIndex.ToString(),
+                                        pageIndex.ToString(),
+                                        pngFile.Path));
+                                }
                             }
                         }
                     }
-                }
-                t = true;
+                    t = true;
 
-            }  
-            catch (Exception err)
+                }
+                catch (Exception err)
+                {
+                    t = false;
+                }
+            }
+            if (t == false)
             {
-                t = false;
+                this.Frame.Navigate(typeof(MainPage));
             }
           
         }

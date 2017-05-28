@@ -30,6 +30,8 @@ using Windows.Web.Http;
 using Windows.UI.Popups;
 using Windows.UI.Xaml.Media.Animation;
 using MySql.Data.MySqlClient;
+using designIdea002.raspored;
+using System.Text.RegularExpressions;
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
 
@@ -56,6 +58,7 @@ namespace designIdea002
             napuniSmerovi();
             profesori();
             timovi();
+            napuniRaspored();
             initDispatcher();
             this.ViewModel = new MainViewModel();
             this.DataContext = this.ViewModel;
@@ -73,12 +76,11 @@ namespace designIdea002
             request.BeginGetResponse(new AsyncCallback(ReadRss), request);
 
         }
-        private async void downloadPdf(String urlLink)
+        // Aleksa: fix for not loaded chosen pdf - changed privacy to public, added static and task instead of void
+        public static async System.Threading.Tasks.Task downloadPdf(String urlLink)
         {
-
-           
             HttpClient client = new HttpClient();
-            using (IInputStream inputStream = await client.GetInputStreamAsync(new Uri("http://www.viser.edu.rs/"+urlLink, UriKind.Absolute)))
+            using (IInputStream inputStream = await client.GetInputStreamAsync(new Uri("http://www.viser.edu.rs/" + urlLink, UriKind.Absolute)))
             {
                 Stream webStream = inputStream.AsStreamForRead();
                 StorageFile file = await ApplicationData.Current.LocalFolder.CreateFileAsync("2.pdf", CreationCollisionOption.ReplaceExisting);
@@ -87,87 +89,116 @@ namespace designIdea002
 
                 Stream fileStream = await file.OpenStreamForWriteAsync();
                 await webStream.CopyToAsync(fileStream);
-                //MessageDialog md = new MessageDialog("File Saved");
+                // MessageDialog md = new MessageDialog("File Saved");
 
-                //await md.ShowAsync();
+                // await md.ShowAsync();
                 webStream.Dispose();
                 fileStream.Dispose();
             }
         }
         private async void ReadRss(IAsyncResult result)
         {
-            HttpWebRequest request = result.AsyncState as HttpWebRequest;
-            HttpWebResponse response = request.EndGetResponse(result) as HttpWebResponse;
-            List<NewsItem> NewsItemsNew = new List<NewsItem>();
-
-
-            using (Stream stream = response.GetResponseStream())
+            // Aleksa TODO: added try and catch block because when no internet connection method throws some exception, investigate this
+            try
             {
-                XmlSerializer serializer = new XmlSerializer(typeof(Rss));
-                Rss rss = (Rss)serializer.Deserialize(stream);
+                HttpWebRequest request = result.AsyncState as HttpWebRequest;
+                HttpWebResponse response = request.EndGetResponse(result) as HttpWebResponse;
+                List<NewsItem> NewsItemsNew = new List<NewsItem>();
 
-                await Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
+
+                using (Stream stream = response.GetResponseStream())
                 {
-                    for (int i = 0; i <6; i++)
+                    XmlSerializer serializer = new XmlSerializer(typeof(Rss));
+                    Rss rss = (Rss)serializer.Deserialize(stream);
+
+                    await Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
                     {
+                        for (int i = 0; i < 16; i++)
+                        {
 
-                        NewsItem n = new NewsItem();
+                            NewsItem n = new NewsItem();
 
-                        n.pubDate = rss.Channel.NewsItems[i].pubDate;
-                        n.Description = "";
-                        desc.Add(rss.Channel.NewsItems[i].Description);
-                        n.Title = rss.Channel.NewsItems[i].Title;
-                        n.setDATE();
-                        n.Prikaz = "";
+                            n.pubDate = rss.Channel.NewsItems[i].pubDate;
+                            n.Description = "";
+                            desc.Add(rss.Channel.NewsItems[i].Description);
+                            n.Title = rss.Channel.NewsItems[i].Title;
+                            n.setDATE();
+                            n.Prikaz = "";
 
-                        
-                        string d = desc[i];
-                        desc.RemoveAt(i);
-                        List<string> des_link=ocistiDescription(ref d);
-                        desc.Add((des_link[0]));
-                        n.link = "";
-                        n.Vidljivost=Visibility.Collapsed;
-                        if (des_link.Count > 1) { n.link = des_link[1]; n.Prikaz = "Прикажи ПДФ"; }
-                        
-                        
-                        lista.Items.Add(n);
-                    }
+
+                            string d = desc[i];
+                            desc.RemoveAt(i);
+                            List<string> des_link = ocistiDescription(ref d);
+                            desc.Add((des_link[0]));
+                            n.link = "";
+                            n.Vidljivost = Visibility.Collapsed;
+                            if (des_link.Count > 1)
+                            {
+                            // Aleksa TODO: re-use the logic for "raspored casova"
+                            // n.link = "download/RT_2016_17_p.pdf";
+                            n.link = des_link[1];
+                                n.Prikaz = "Прикажи ПДФ";
+                            }
+
+
+                            lista.Items.Add(n);
+                        }
                     //rss.Channel.NewsItems = NewsItemsNew;
                     //this.ViewModel.CurrentRss = rss;
-                                
+
 
                 });
+                }
+            }
+            catch (Exception e)
+            {
+                return;
+            }
+        }
+
+        private List<string> ocistiDescription(ref string desc)
+        {
+            string link = "";
+            List<string> des_link = new List<string>();
+            string des = desc;
+            if (des.IndexOf("<p>") >= 0)
+                des = des.Replace("<p>", " ");
+            if (des.IndexOf("<br>") >= 0)
+                des = des.Replace("<br>", Environment.NewLine);
+            if (des.IndexOf("</p>") >= 0)
+                des = des.Replace("</p>", Environment.NewLine);
+            if (des.IndexOf("&nbsp;") >= 0)
+                des = des.Replace("&nbsp;", Environment.NewLine);
+
+            if (des.IndexOf("<a href='do") >= 0)
+            {
+                string linija = des.Substring(des.IndexOf("<a href='do"));
+                string[] nizLinije = linija.Split('\'');
+                link = nizLinije[1];
+                des = des.Substring(0, des.IndexOf("<a href='do"));
+
             }
 
+            // Aleksa: method call added
+            des = GetPlainTextFromHtml(des);
+
+            des_link.Add(des);
+            if (link != "")
+                des_link.Add(link);
+            return des_link;
         }
-        
-        private List<string> ocistiDescription( ref string  desc)
+
+        // Aleksa: added method for parsing
+        private string GetPlainTextFromHtml(string htmlString)
         {
-                string link="";
-                List<string> des_link = new List<string>();
-                string des = desc;
-                if (des.IndexOf("<p>") >= 0)
-                    des = des.Replace("<p>", " ");
-                if (des.IndexOf("<br>") >= 0)
-                    des = des.Replace("<br>", Environment.NewLine);
-                  if (des.IndexOf("</p>") >= 0)
-                      des = des.Replace("</p>", Environment.NewLine);
-                  if (des.IndexOf("&nbsp;") >= 0)
-                      des = des.Replace("&nbsp;", Environment.NewLine);
-                    
-                if(des.IndexOf("<a href='do")>=0)
-                {
-                    string linija=des.Substring(des.IndexOf("<a href='do"));
-                    string[] nizLinije=linija.Split('\'');
-                    link=nizLinije[1];
-                    des = des.Substring(0, des.IndexOf("<a href='do"));
-                  
-                }
-                
-                des_link.Add(des);
-                if (link != "")
-                    des_link.Add(link);
-                return des_link;
+            string htmlTagPattern = "<.*?>";
+            var regexCss = new Regex("(\\<script(.+?)\\</script\\>)|(\\<style(.+?)\\</style\\>)", RegexOptions.Singleline | RegexOptions.IgnoreCase);
+            htmlString = regexCss.Replace(htmlString, string.Empty);
+            htmlString = Regex.Replace(htmlString, htmlTagPattern, string.Empty);
+            // htmlString = Regex.Replace(htmlString, @"^\s+$[\r\n]*", "", RegexOptions.Multiline);
+            htmlString = htmlString.Replace("&nbsp;", string.Empty);
+
+            return htmlString;
         }
 
         private void TextBlock_Tapped(object sender, TappedRoutedEventArgs e)
@@ -615,29 +646,33 @@ namespace designIdea002
             this.Frame.Navigate(typeof(Smerovi), s);
         }
 
-
+        public string link = "";
         private void lista_Tapped(object sender, TappedRoutedEventArgs e)
         {
-            if(((ListView)sender).SelectedIndex==-1)
-            return;
+            if (((ListView)sender).SelectedIndex == -1)
+            {
+                return;
+            }
 
-           
             NewsItem vest = (NewsItem)((ListView)sender).SelectedItem;
+
             if (preth == null)
             {
                 if (vest.link != "")
                 {
                     vest.Vidljivost = Visibility.Visible;
-                    downloadPdf(vest.link);
+                    // Aleksa: fix for not loaded chosen pdf
+                    // downloadPdf(vest.link);
+                    link = vest.link;
                 }
 
                 preth = vest;
-                vest.Description=desc[(index=((ListView)sender).SelectedIndex)];
+                vest.Description = desc[(index = ((ListView)sender).SelectedIndex)];
                 flag = false;
                 lista.Items[((ListView)sender).SelectedIndex] = vest;
-                
+
             }
-            else if(preth==vest)
+            else if (preth == vest)
             {
                 if (flag == false)
                 {
@@ -649,21 +684,28 @@ namespace designIdea002
                 else
                 {
                     vest.Description = desc[(index = ((ListView)sender).SelectedIndex)];
-                    vest.Vidljivost = Visibility.Visible;
+                    // Aleksa: fix for defect when button is added for downloading PDF but not needed
+                    if (vest.link != "")
+                    {
+                        vest.Vidljivost = Visibility.Visible;
+                        // downloadPdf(vest.link);
+                        link = vest.link;
+                    }
                     lista.Items[((ListView)sender).SelectedIndex] = vest;
                     flag = false;
 
                 }
             }
-            if(preth!=vest)
+            if (preth != vest)
             {
-              
+
                 preth.Description = "";
                 preth.Vidljivost = Visibility.Collapsed;
                 if (vest.link != "")
                 {
                     vest.Vidljivost = Visibility.Visible;
-                    downloadPdf(vest.link);
+                    // downloadPdf(vest.link);
+                    link = vest.link;
                 }
                 vest.Description = desc[((ListView)sender).SelectedIndex];
                 lista.Items[index] = preth;
@@ -673,7 +715,6 @@ namespace designIdea002
                 preth = vest;
 
             }
-            
         }
 
         private void pageRoot_Loaded(object sender, RoutedEventArgs e)
@@ -732,11 +773,10 @@ namespace designIdea002
             
         }
 
-        private  void TextBlock_Tapped_3(object sender, TappedRoutedEventArgs e)
+        private void TextBlock_Tapped_3(object sender, TappedRoutedEventArgs e)
         {
-          
-
-            this.Frame.Navigate(typeof(PdfPage));
+            // Aleksa: passed argument link for consistency
+            this.Frame.Navigate(typeof(PdfPage), link);
         }
 
         private void navigationHelper_SaveState(object sender, SaveStateEventArgs e)
@@ -747,8 +787,181 @@ namespace designIdea002
                 if (selectedItem != null) e.PageState["SelectedItem"] = selectedItem.UniqueId;
             }
         }
-        
-       
+
+        /****** RASPORED ******/
+        private void napuniRaspored()
+        {
+            // Aleksa TODO: implementation
+            // throw new NotImplementedException();
+
+
+            // Aleksa TODO: hard coded
+            List<string> skraceno = new List<string>();
+            List<string> linkovi = new List<string>();
+            List<string> smerovi = new List<string>();
+            List<string> semestar = new List<string>();
+
+            #region hard coded
+            skraceno.Add("АСУВ");
+            linkovi.Add("download/ASUV_2016_17_p.pdf");
+            smerovi.Add("Аутоматика и системи управаљања возилима");
+            semestar.Add("1. семестар");
+
+            skraceno.Add("АВТ");
+            linkovi.Add("download/AVT1p.pdf");
+            smerovi.Add("Аудио и видео технологије");
+            semestar.Add("1. семестар");
+
+            skraceno.Add("ЕЛИТЕ");
+            linkovi.Add("download/ELITE_2016_17_p.pdf");
+            smerovi.Add("Електроника и телекомуникације");
+            semestar.Add("1. семестар");
+
+            skraceno.Add("ЕПО");
+            linkovi.Add("download/EPO1p.pdf");
+            smerovi.Add("Електронско пословање");
+            semestar.Add("1. семестар");
+
+            skraceno.Add("НЕТ");
+            linkovi.Add("download/NET_2016_17_p.pdf");
+            smerovi.Add("Нове енергетске технологије");
+            semestar.Add("1. семестар");
+
+            skraceno.Add("НРТ");
+            linkovi.Add("download/NRT1p.pdf");
+            smerovi.Add("Нове рачунарске технологије");
+            semestar.Add("1. семестар");
+
+            skraceno.Add("РТ");
+            linkovi.Add("download/RT_2016_17_p.pdf");
+            smerovi.Add("Рачунарска техника");
+            semestar.Add("1. семестар");
+
+            /***********************/
+
+            skraceno.Add("АСУВ");
+            linkovi.Add("download/ASUV3p_2016_17_p.pdf");
+            smerovi.Add("Аутоматика и системи управаљања возилима");
+            semestar.Add("3. семестар");
+
+            skraceno.Add("АВТ");
+            linkovi.Add("download/AVT3p_2016_17_p.pdf");
+            smerovi.Add("Аудио и видео технологије");
+            semestar.Add("3. семестар");
+            
+            skraceno.Add("ЕЛИТЕ");
+            linkovi.Add("download/ELITE3p_2016_17_p.pdf");
+            smerovi.Add("Електроника и телекомуникације");
+            semestar.Add("3. семестар");
+
+            skraceno.Add("ЕПО");
+            linkovi.Add("download/EPO3p_2016_17_p.pdf");
+            smerovi.Add("Електронско пословање");
+            semestar.Add("3. семестар");
+
+            skraceno.Add("НЕТ");
+            linkovi.Add("download/NET3p_2016_17_p.pdf");
+            smerovi.Add("Нове енергетске технологије");
+            semestar.Add("3. семестар");
+
+            skraceno.Add("НРТ");
+            linkovi.Add("download/NRT3p_2016_17_p.pdf");
+            smerovi.Add("Нове рачунарске технологије");
+            semestar.Add("3. семестар");
+
+            skraceno.Add("РТ");
+            linkovi.Add("download/RT3p_2016_17_p.pdf");
+            smerovi.Add("Рачунарска техника");
+            semestar.Add("3. семестар");
+
+            /***********************/
+
+            skraceno.Add("АСУВ");
+            linkovi.Add("download/ASUV5p_2016_17_p.pdf");
+            smerovi.Add("Аутоматика и системи управаљања возилима");
+            semestar.Add("5. семестар");
+
+            skraceno.Add("АВТ");
+            linkovi.Add("download/AVT5p_2016_17_p.pdf");
+            smerovi.Add("Аудио и видео технологије");
+            semestar.Add("5. семестар");
+
+            skraceno.Add("ЕЛИТЕ");
+            linkovi.Add("download/ELITE5p_2016_17_p.pdf");
+            smerovi.Add("Електроника и телекомуникације");
+            semestar.Add("5. семестар");
+
+            skraceno.Add("ЕПО");
+            linkovi.Add("download/EPO5p_2016_17_p.pdf");
+            smerovi.Add("Електронско пословање");
+            semestar.Add("5. семестар");
+
+            skraceno.Add("НЕТ");
+            linkovi.Add("download/NET5p_2016_17_p.pdf");
+            smerovi.Add("Нове енергетске технологије");
+            semestar.Add("5. семестар");
+
+            skraceno.Add("НРТ");
+            linkovi.Add("download/NRT5p_2016_17_p.pdf");
+            smerovi.Add("Нове рачунарске технологије");
+            semestar.Add("5. семестар");
+
+            skraceno.Add("РТ");
+            linkovi.Add("download/RT5p_2016_17_p.pdf");
+            smerovi.Add("Рачунарска техника");
+            semestar.Add("5. семестар");
+
+            /***********************/
+
+            skraceno.Add("ССЕЛИТЕ");
+            linkovi.Add("download/Raspored_zimski_%20ELITE_SS_%202016_17.pdf");
+            smerovi.Add("СС Електроника и телекомуникације");
+            semestar.Add("7. семестар");
+
+            skraceno.Add("МЕХА");
+            linkovi.Add("download/Raspored_zimski_MEHA__2016_17.pdf");
+            smerovi.Add("СС Мехатроника");
+            semestar.Add("7. семестар");
+
+            skraceno.Add("МТДТВ");
+            linkovi.Add("download/Raspored_zimski_%20MDTV_SS_%202016_17.pdf");
+            smerovi.Add("СС Мултимедијалне технологије и дигитална телевизија");
+            semestar.Add("7. семестар");
+
+            skraceno.Add("ССНЕТ");
+            linkovi.Add("download/Raspored_zimski_NET_SS_2016_17.pdf");
+            smerovi.Add("СС Нове енергетске технологије");
+            semestar.Add("7. семестар");
+
+            skraceno.Add("ССНРТ");
+            linkovi.Add("download/Raspored_zimski_%20NRT_SS_%202016_17.pdf");
+            smerovi.Add("СС Нове рачунарске технологије");
+            semestar.Add("7. семестар");
+
+            skraceno.Add("СИКС");
+            linkovi.Add("download/Raspored_zimski_SIKS_SS_%202016_17.pdf");
+            smerovi.Add("СС Сигурност у информационо комуникационим системима");
+            semestar.Add("7. семестар");
+            #endregion
+
+            int i = 0;
+            foreach (string link in linkovi)
+            {
+                RasporedItem r = new RasporedItem(semestar[i].Substring(0, 2), skraceno[i], smerovi[i], semestar[i], linkovi[i]);
+                listaRaspored.Items.Add(r);
+                i++;
+            }
+        }
+
+        private void listaRaspored_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            // Aleksa TODO: implementation
+            // throw new NotImplementedException();
+
+            RasporedItem r = (RasporedItem)((ListView)sender).SelectedItem;
+            
+            this.Frame.Navigate(typeof(PdfPage), r.Link);
+        }
 
     }
 }

@@ -1,660 +1,671 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>NIKOLA</Machine>
-    <WindowsUser>Nikola</WindowsUser>
+    <Machine>DESKTOP-B83D19M</Machine>
+    <WindowsUser>amatejic</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>455556</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Milos</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\amatejic\Desktop\DOT-master\designIdea002\obj\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\bin\Debug\designIdea002.exe">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\bin\Debug\designIdea002.exe">
       <PackagePath>designIdea002.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\MySQL\MySQL Connector Net 6.9.6\Assemblies\RT\MySql.Data.RT.dll">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\bin\Debug\MySql.Data.RT.dll">
       <PackagePath>MySql.Data.RT.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\100.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\100.jpg">
       <PackagePath>adresar\100.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\102.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\102.jpg">
       <PackagePath>adresar\102.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\103.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\103.jpg">
       <PackagePath>adresar\103.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\104.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\104.jpg">
       <PackagePath>adresar\104.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\105.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\105.jpg">
       <PackagePath>adresar\105.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\107.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\107.jpg">
       <PackagePath>adresar\107.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\108.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\108.jpg">
       <PackagePath>adresar\108.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\109.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\109.jpg">
       <PackagePath>adresar\109.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\110.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\110.jpg">
       <PackagePath>adresar\110.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\111.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\111.jpg">
       <PackagePath>adresar\111.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\115.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\115.jpg">
       <PackagePath>adresar\115.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\116.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\116.jpg">
       <PackagePath>adresar\116.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\118.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\118.jpg">
       <PackagePath>adresar\118.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\119.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\119.jpg">
       <PackagePath>adresar\119.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\13.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\13.jpg">
       <PackagePath>adresar\13.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\14.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\14.jpg">
       <PackagePath>adresar\14.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\16.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\16.jpg">
       <PackagePath>adresar\16.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\25.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\25.jpg">
       <PackagePath>adresar\25.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\27.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\27.jpg">
       <PackagePath>adresar\27.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\28.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\28.jpg">
       <PackagePath>adresar\28.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\29.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\29.jpg">
       <PackagePath>adresar\29.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\3.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\3.jpg">
       <PackagePath>adresar\3.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\33.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\33.jpg">
       <PackagePath>adresar\33.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\34.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\34.jpg">
       <PackagePath>adresar\34.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\35.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\35.jpg">
       <PackagePath>adresar\35.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\38.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\38.jpg">
       <PackagePath>adresar\38.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\39.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\39.jpg">
       <PackagePath>adresar\39.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\4.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\4.jpg">
       <PackagePath>adresar\4.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\40.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\40.jpg">
       <PackagePath>adresar\40.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\41.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\41.jpg">
       <PackagePath>adresar\41.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\44.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\44.jpg">
       <PackagePath>adresar\44.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\45.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\45.jpg">
       <PackagePath>adresar\45.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\46.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\46.jpg">
       <PackagePath>adresar\46.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\52.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\52.jpg">
       <PackagePath>adresar\52.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\55.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\55.jpg">
       <PackagePath>adresar\55.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\56.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\56.jpg">
       <PackagePath>adresar\56.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\60.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\60.jpg">
       <PackagePath>adresar\60.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\63.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\63.jpg">
       <PackagePath>adresar\63.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\66.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\66.jpg">
       <PackagePath>adresar\66.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\67.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\67.jpg">
       <PackagePath>adresar\67.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\68.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\68.jpg">
       <PackagePath>adresar\68.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\69.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\69.jpg">
       <PackagePath>adresar\69.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\71.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\71.jpg">
       <PackagePath>adresar\71.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\72.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\72.jpg">
       <PackagePath>adresar\72.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\73.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\73.jpg">
       <PackagePath>adresar\73.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\75.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\75.jpg">
       <PackagePath>adresar\75.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\77.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\77.jpg">
       <PackagePath>adresar\77.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\78.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\78.jpg">
       <PackagePath>adresar\78.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\8.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\8.jpg">
       <PackagePath>adresar\8.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\80.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\80.jpg">
       <PackagePath>adresar\80.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\81.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\81.jpg">
       <PackagePath>adresar\81.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\83.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\83.jpg">
       <PackagePath>adresar\83.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\85.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\85.jpg">
       <PackagePath>adresar\85.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\86.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\86.jpg">
       <PackagePath>adresar\86.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\87.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\87.jpg">
       <PackagePath>adresar\87.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\88.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\88.jpg">
       <PackagePath>adresar\88.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\89.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\89.jpg">
       <PackagePath>adresar\89.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\91.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\91.jpg">
       <PackagePath>adresar\91.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\93.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\93.jpg">
       <PackagePath>adresar\93.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\95.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\95.jpg">
       <PackagePath>adresar\95.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\96.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\96.jpg">
       <PackagePath>adresar\96.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\97.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\97.jpg">
       <PackagePath>adresar\97.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\98.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\98.jpg">
       <PackagePath>adresar\98.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\99.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\99.jpg">
       <PackagePath>adresar\99.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\muskarac.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\muskarac.jpg">
       <PackagePath>adresar\muskarac.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\adresar\zena.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\adresar\zena.jpg">
       <PackagePath>adresar\zena.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\10384128_10155250556365627_3823687141919744211_n.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\10384128_10155250556365627_3823687141919744211_n.jpg">
       <PackagePath>Assets\10384128_10155250556365627_3823687141919744211_n.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\104.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\104.jpg">
       <PackagePath>Assets\104.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\10406375_10155034910910627_8094214467486408757_n.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\10406375_10155034910910627_8094214467486408757_n.jpg">
       <PackagePath>Assets\10406375_10155034910910627_8094214467486408757_n.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\10898062_10205305253966229_2019889139822974912_n.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\10898062_10205305253966229_2019889139822974912_n.jpg">
       <PackagePath>Assets\10898062_10205305253966229_2019889139822974912_n.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\1103970794414.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\1103970794414.jpg">
       <PackagePath>Assets\1103970794414.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\1412968850040.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\1412968850040.jpg">
       <PackagePath>Assets\1412968850040.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\1463490_683783354980353_1184350003_n.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\1463490_683783354980353_1184350003_n.jpg">
       <PackagePath>Assets\1463490_683783354980353_1184350003_n.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\2411952715280.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\2411952715280.jpg">
       <PackagePath>Assets\2411952715280.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\5_1.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\5_1.jpg">
       <PackagePath>Assets\5_1.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\aleksandar mitrović.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\aleksandar mitrović.jpg">
       <PackagePath>Assets\aleksandar mitrović.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\aleksandarkaretic.JPG">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\aleksandarkaretic.JPG">
       <PackagePath>Assets\aleksandarkaretic.JPG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\asuv.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\asuv.jpg">
       <PackagePath>Assets\asuv.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\avt-pozadina.JPG">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\avt-pozadina.JPG">
       <PackagePath>Assets\avt-pozadina.JPG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\djordjemilosevic.JPG">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\djordjemilosevic.JPG">
       <PackagePath>Assets\djordjemilosevic.JPG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\djurdje kovačević.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\djurdje kovačević.jpg">
       <PackagePath>Assets\djurdje kovačević.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\dragutin dimić.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\dragutin dimić.jpg">
       <PackagePath>Assets\dragutin dimić.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\dušan vučić.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\dušan vučić.jpg">
       <PackagePath>Assets\dušan vučić.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\filip stevanović.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\filip stevanović.jpg">
       <PackagePath>Assets\filip stevanović.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\filipdjajic.JPG">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\filipdjajic.JPG">
       <PackagePath>Assets\filipdjajic.JPG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\futsal-pozadina.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\futsal-pozadina.jpg">
       <PackagePath>Assets\futsal-pozadina.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\futsal1.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\futsal1.jpg">
       <PackagePath>Assets\futsal1.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\futsal2.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\futsal2.jpg">
       <PackagePath>Assets\futsal2.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\ivan palijan.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\ivan palijan.jpg">
       <PackagePath>Assets\ivan palijan.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\jovan jovanovi.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\jovan jovanovi.jpg">
       <PackagePath>Assets\jovan jovanovi.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\kosarka_pozadina.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\kosarka_pozadina.jpg">
       <PackagePath>Assets\kosarka_pozadina.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\kosta šotić.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\kosta šotić.jpg">
       <PackagePath>Assets\kosta šotić.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\lazar donić.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\lazar donić.jpg">
       <PackagePath>Assets\lazar donić.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\lazarcolovic.JPG">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\lazarcolovic.JPG">
       <PackagePath>Assets\lazarcolovic.JPG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\LogoSkole.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\LogoSkole.jpg">
       <PackagePath>Assets\LogoSkole.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\luka milovanović.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\luka milovanović.jpg">
       <PackagePath>Assets\luka milovanović.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\marko štrkalj.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\marko štrkalj.jpg">
       <PackagePath>Assets\marko štrkalj.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\markokostic.JPG">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\markokostic.JPG">
       <PackagePath>Assets\markokostic.JPG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\milan zelenović.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\milan zelenović.jpg">
       <PackagePath>Assets\milan zelenović.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\milanjokic.JPG">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\milanjokic.JPG">
       <PackagePath>Assets\milanjokic.JPG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\milenko jović.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\milenko jović.jpg">
       <PackagePath>Assets\milenko jović.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\milenko vujković.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\milenko vujković.jpg">
       <PackagePath>Assets\milenko vujković.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\milijana nešić.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\milijana nešić.jpg">
       <PackagePath>Assets\milijana nešić.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\miloscvjetan.JPG">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\miloscvjetan.JPG">
       <PackagePath>Assets\miloscvjetan.JPG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\milossimic.JPG">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\milossimic.JPG">
       <PackagePath>Assets\milossimic.JPG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\miloš čizmić.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\miloš čizmić.jpg">
       <PackagePath>Assets\miloš čizmić.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\Nenad drekalovic.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\Nenad drekalovic.jpg">
       <PackagePath>Assets\Nenad drekalovic.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\nikola bakić.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\nikola bakić.jpg">
       <PackagePath>Assets\nikola bakić.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\nikola marčeta.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\nikola marčeta.jpg">
       <PackagePath>Assets\nikola marčeta.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\nina lakičin.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\nina lakičin.jpg">
       <PackagePath>Assets\nina lakičin.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\Noise-Light-Grey-Tileable-Pattern-For-Website-Background.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\Noise-Light-Grey-Tileable-Pattern-For-Website-Background.jpg">
       <PackagePath>Assets\Noise-Light-Grey-Tileable-Pattern-For-Website-Background.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\odbojka.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\odbojka.jpg">
       <PackagePath>Assets\odbojka.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\radivoje Lacković.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\radivoje Lacković.jpg">
       <PackagePath>Assets\radivoje Lacković.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\radojica drekalović.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\radojica drekalović.jpg">
       <PackagePath>Assets\radojica drekalović.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\rt.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\rt.jpg">
       <PackagePath>Assets\rt.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\rukomet.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\rukomet.jpg">
       <PackagePath>Assets\rukomet.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\siniša stančić.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\siniša stančić.jpg">
       <PackagePath>Assets\siniša stančić.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\sneža veselinović.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\sneža veselinović.jpg">
       <PackagePath>Assets\sneža veselinović.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\stefan kuzmanović.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\stefan kuzmanović.jpg">
       <PackagePath>Assets\stefan kuzmanović.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\stefan lazarević.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\stefan lazarević.jpg">
       <PackagePath>Assets\stefan lazarević.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\stoniTenis.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\stoniTenis.jpg">
       <PackagePath>Assets\stoniTenis.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\Telenor-Logo_0.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\Telenor-Logo_0.jpg">
       <PackagePath>Assets\Telenor-Logo_0.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\test1.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\test1.jpg">
       <PackagePath>Assets\test1.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\test11.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\test11.jpg">
       <PackagePath>Assets\test11.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\vasilijedjokic.JPG">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\vasilijedjokic.JPG">
       <PackagePath>Assets\vasilijedjokic.JPG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\vidoje gavrilović.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\vidoje gavrilović.jpg">
       <PackagePath>Assets\vidoje gavrilović.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\vojin ivanović.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\vojin ivanović.jpg">
       <PackagePath>Assets\vojin ivanović.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\zoran dragić.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\zoran dragić.jpg">
       <PackagePath>Assets\zoran dragić.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\željko čvarković.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\željko čvarković.jpg">
       <PackagePath>Assets\željko čvarković.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\Александар Митровић АВТ 2. година.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\Александар Митровић АВТ 2. година.jpg">
       <PackagePath>Assets\Александар Митровић АВТ 2. година.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\ана ранђеловић.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\ана ранђеловић.jpg">
       <PackagePath>Assets\ана ранђеловић.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\Владимир Граховац ЕЛИТЕ 1. година.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\Владимир Граховац ЕЛИТЕ 1. година.jpg">
       <PackagePath>Assets\Владимир Граховац ЕЛИТЕ 1. година.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\Добрица Петрић АСУВ 3. година.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\Добрица Петрић АСУВ 3. година.jpg">
       <PackagePath>Assets\Добрица Петрић АСУВ 3. година.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\Милица Тонић ЕПО 1. година.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\Милица Тонић ЕПО 1. година.jpg">
       <PackagePath>Assets\Милица Тонић ЕПО 1. година.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\Милош Митровић АСУВ 3. година.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\Милош Митровић АСУВ 3. година.jpg">
       <PackagePath>Assets\Милош Митровић АСУВ 3. година.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\avt-pozadina.JPG">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\avt-pozadina.JPG">
       <PackagePath>avt-pozadina.JPG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\smerovi\asuv.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\smerovi\asuv.jpg">
       <PackagePath>smerovi\asuv.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\smerovi\avt.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\smerovi\avt.jpg">
       <PackagePath>smerovi\avt.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\smerovi\elite.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\smerovi\elite.jpg">
       <PackagePath>smerovi\elite.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\smerovi\epo.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\smerovi\epo.jpg">
       <PackagePath>smerovi\epo.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\smerovi\meha.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\smerovi\meha.jpg">
       <PackagePath>smerovi\meha.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\smerovi\mtdtv.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\smerovi\mtdtv.jpg">
       <PackagePath>smerovi\mtdtv.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\smerovi\net.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\smerovi\net.jpg">
       <PackagePath>smerovi\net.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\smerovi\nrt.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\smerovi\nrt.jpg">
       <PackagePath>smerovi\nrt.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\smerovi\nrtd.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\smerovi\nrtd.jpg">
       <PackagePath>smerovi\nrtd.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\smerovi\rt.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\smerovi\rt.jpg">
       <PackagePath>smerovi\rt.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\smerovi\siks.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\smerovi\siks.jpg">
       <PackagePath>smerovi\siks.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\smerovi\sselite.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\smerovi\sselite.jpg">
       <PackagePath>smerovi\sselite.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\smerovi\ssnet.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\smerovi\ssnet.jpg">
       <PackagePath>smerovi\ssnet.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\smerovi\ssnrt.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\smerovi\ssnrt.jpg">
       <PackagePath>smerovi\ssnrt.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\timovi\10k.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\timovi\10k.jpg">
       <PackagePath>timovi\10k.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\timovi\casopis1.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\timovi\casopis1.jpg">
       <PackagePath>timovi\casopis1.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\timovi\casopis2.JPG">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\timovi\casopis2.JPG">
       <PackagePath>timovi\casopis2.JPG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\timovi\kosarka1.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\timovi\kosarka1.jpg">
       <PackagePath>timovi\kosarka1.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\timovi\kosarka2.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\timovi\kosarka2.jpg">
       <PackagePath>timovi\kosarka2.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\timovi\odbojka1.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\timovi\odbojka1.jpg">
       <PackagePath>timovi\odbojka1.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\timovi\odbojka2.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\timovi\odbojka2.jpg">
       <PackagePath>timovi\odbojka2.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\timovi\parlament1.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\timovi\parlament1.jpg">
       <PackagePath>timovi\parlament1.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\timovi\robotika1.JPG">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\timovi\robotika1.JPG">
       <PackagePath>timovi\robotika1.JPG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\timovi\robotika2.JPG">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\timovi\robotika2.JPG">
       <PackagePath>timovi\robotika2.JPG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\timovi\robotika3.JPG">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\timovi\robotika3.JPG">
       <PackagePath>timovi\robotika3.JPG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\timovi\rukomet1.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\timovi\rukomet1.jpg">
       <PackagePath>timovi\rukomet1.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\timovi\rukomet2.jpg">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\timovi\rukomet2.jpg">
       <PackagePath>timovi\rukomet2.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\10ka.png">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\10ka.png">
       <PackagePath>Assets\10ka.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\awakening_of_heroes.png">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\awakening_of_heroes.png">
       <PackagePath>Assets\awakening_of_heroes.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\casopis.png">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\casopis.png">
       <PackagePath>Assets\casopis.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\DarkGray.png">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\DarkGray.png">
       <PackagePath>Assets\DarkGray.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\fudbal.png">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\fudbal.png">
       <PackagePath>Assets\fudbal.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\kosarka.png">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\kosarka.png">
       <PackagePath>Assets\kosarka.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\lazar_c.PNG">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\lazar_c.PNG">
       <PackagePath>Assets\lazar_c.PNG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\LightGray.png">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\LightGray.png">
       <PackagePath>Assets\LightGray.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\logo1.png">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\logo1.png">
       <PackagePath>Assets\logo1.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\logoViser.png">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\logoViser.png">
       <PackagePath>Assets\logoViser.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\marko_g.PNG">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\marko_g.PNG">
       <PackagePath>Assets\marko_g.PNG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\MediumGray.png">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\MediumGray.png">
       <PackagePath>Assets\MediumGray.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\milos1.PNG">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\milos1.PNG">
       <PackagePath>Assets\milos1.PNG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\odbojka.png">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\odbojka.png">
       <PackagePath>Assets\odbojka.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\parlament.png">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\parlament.png">
       <PackagePath>Assets\parlament.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\PNGinsipiracija__0000_Layer-5.png">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\PNGinsipiracija__0000_Layer-5.png">
       <PackagePath>Assets\PNGinsipiracija__0000_Layer-5.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\PNGinsipiracija__0002_Layer-4.png">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\PNGinsipiracija__0002_Layer-4.png">
       <PackagePath>Assets\PNGinsipiracija__0002_Layer-4.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\PNGinsipiracija__0003_Layer-3.png">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\PNGinsipiracija__0003_Layer-3.png">
       <PackagePath>Assets\PNGinsipiracija__0003_Layer-3.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\PNGinsipiracija__0004_Layer-2.png">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\PNGinsipiracija__0004_Layer-2.png">
       <PackagePath>Assets\PNGinsipiracija__0004_Layer-2.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\PNGinsipiracija__0016_Layer-1.png">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\PNGinsipiracija__0016_Layer-1.png">
       <PackagePath>Assets\PNGinsipiracija__0016_Layer-1.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\pozadina003.png">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\pozadina003.png">
       <PackagePath>Assets\pozadina003.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\pozadina010.png">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\pozadina010.png">
       <PackagePath>Assets\pozadina010.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\pozadina5.png">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\pozadina5.png">
       <PackagePath>Assets\pozadina5.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\robotika.png">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\robotika.png">
       <PackagePath>Assets\robotika.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\rukomet.png">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\rukomet.png">
       <PackagePath>Assets\rukomet.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\SmallLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\SmallLogo.scale-100.png">
       <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\stoniTenis.png">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\stoniTenis.png">
       <PackagePath>Assets\stoniTenis.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\veljko_m.PNG">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\veljko_m.PNG">
       <PackagePath>Assets\veljko_m.PNG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\Avicii - Wake Me Up Official Teaser 1.mp4">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\Avicii - Wake Me Up Official Teaser 1.mp4">
       <PackagePath>Assets\Avicii - Wake Me Up Official Teaser 1.mp4</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\proba.txt">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\proba.txt">
       <PackagePath>Assets\proba.txt</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Common\ReadMe.txt">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Common\ReadMe.txt">
       <PackagePath>Common\ReadMe.txt</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\StudentskeVesti.xml">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\StudentskeVesti.xml">
       <PackagePath>Assets\StudentskeVesti.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\StudentskeVesti2.xml">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\StudentskeVesti2.xml">
       <PackagePath>Assets\StudentskeVesti2.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\Assets\StudentskeVesti1.xml">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\Assets\StudentskeVesti1.xml">
       <PackagePath>Assets\StudentskeVesti1.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\StudentskeVesti.xml">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\StudentskeVesti.xml">
       <PackagePath>StudentskeVesti.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\bin\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\bin\Debug\designIdea002.xr.xml">
+      <PackagePath>designIdea002.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\bin\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\bin\Debug\PdfPage.xbf">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\bin\Debug\PdfPage.xbf">
       <PackagePath>PdfPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\bin\Debug\Profesor.xbf">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\bin\Debug\Profesor.xbf">
       <PackagePath>Profesor.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\bin\Debug\Profesori.xbf">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\bin\Debug\Profesori.xbf">
       <PackagePath>Profesori.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\bin\Debug\Smerovi.xbf">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\bin\Debug\Smerovi.xbf">
       <PackagePath>Smerovi.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\bin\Debug\Studenti.xbf">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\bin\Debug\Studenti.xbf">
       <PackagePath>Studenti.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\bin\Debug\Timovi.xbf">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\bin\Debug\Timovi.xbf">
       <PackagePath>Timovi.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\bin\Debug\Vesti.xbf">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\bin\Debug\Vesti.xbf">
       <PackagePath>Vesti.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikola\Documents\designIdea002\designIdea002\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\amatejic\Desktop\DOT-master\designIdea002\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

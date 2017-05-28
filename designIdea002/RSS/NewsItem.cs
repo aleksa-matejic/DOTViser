@@ -43,6 +43,7 @@ namespace designIdea002.RSS
             set { mesec = value; }
         }
 
+		// Aleksa TODO: cirilica
         public void setDATE()
         {
            

@@ -226,6 +226,7 @@ namespace designIdea002.designIdea002_XamlTypeInfo
             case 0:   //  designIdea002.Common.BooleanToVisibilityConverter
                 userType = new global::designIdea002.designIdea002_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.Activator = Activate_0_BooleanToVisibilityConverter;
+                userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
@@ -237,6 +238,7 @@ namespace designIdea002.designIdea002_XamlTypeInfo
                 userType = new global::designIdea002.designIdea002_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_2_MainPage;
                 userType.AddMemberName("DefaultViewModel");
+                userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
@@ -252,6 +254,7 @@ namespace designIdea002.designIdea002_XamlTypeInfo
                 userType = new global::designIdea002.designIdea002_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.DictionaryAdd = MapAdd_5_ObservableDictionary;
                 userType.SetIsReturnTypeStub();
+                userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
@@ -264,12 +267,14 @@ namespace designIdea002.designIdea002_XamlTypeInfo
                 userType.Activator = Activate_7_PdfPage;
                 userType.AddMemberName("NavigationHelper");
                 userType.AddMemberName("DefaultViewModel");
+                userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
             case 8:   //  designIdea002.Common.NavigationHelper
                 userType = new global::designIdea002.designIdea002_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
                 userType.SetIsReturnTypeStub();
+                userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
@@ -280,6 +285,7 @@ namespace designIdea002.designIdea002_XamlTypeInfo
             case 10:   //  designIdea002.Profesor
                 userType = new global::designIdea002.designIdea002_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_10_Profesor;
+                userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
@@ -288,12 +294,14 @@ namespace designIdea002.designIdea002_XamlTypeInfo
                 userType.Activator = Activate_11_Profesori;
                 userType.AddMemberName("DefaultViewModel");
                 userType.AddMemberName("NavigationHelper");
+                userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
             case 12:   //  designIdea002.Smerovi
                 userType = new global::designIdea002.designIdea002_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_12_Smerovi;
+                userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
@@ -301,6 +309,7 @@ namespace designIdea002.designIdea002_XamlTypeInfo
                 userType = new global::designIdea002.designIdea002_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_13_Studenti;
                 userType.AddMemberName("idPageSent");
+                userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
@@ -311,12 +320,14 @@ namespace designIdea002.designIdea002_XamlTypeInfo
             case 15:   //  designIdea002.Timovi
                 userType = new global::designIdea002.designIdea002_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_15_Timovi;
+                userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
             case 16:   //  designIdea002.Vesti
                 userType = new global::designIdea002.designIdea002_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_16_Vesti;
+                userType.SetIsLocalType();
                 xamlType = userType;
                 break;
             }
@@ -442,6 +453,7 @@ namespace designIdea002.designIdea002_XamlTypeInfo
         virtual public bool IsMarkupExtension { get { throw new global::System.NotImplementedException(); } }
         virtual public bool IsBindable { get { throw new global::System.NotImplementedException(); } }
         virtual public bool IsReturnTypeStub { get { throw new global::System.NotImplementedException(); } }
+        virtual public bool IsLocalType { get { throw new global::System.NotImplementedException(); } }
         virtual public global::Windows.UI.Xaml.Markup.IXamlType ItemType { get { throw new global::System.NotImplementedException(); } }
         virtual public global::Windows.UI.Xaml.Markup.IXamlType KeyType { get { throw new global::System.NotImplementedException(); } }
         virtual public object ActivateInstance() { throw new global::System.NotImplementedException(); }
@@ -466,6 +478,7 @@ namespace designIdea002.designIdea002_XamlTypeInfo
         bool _isMarkupExtension;
         bool _isBindable;
         bool _isReturnTypeStub;
+        bool _isLocalType;
 
         string _contentPropertyName;
         string _itemTypeName;
@@ -490,6 +503,7 @@ namespace designIdea002.designIdea002_XamlTypeInfo
         override public bool IsMarkupExtension { get { return _isMarkupExtension; } }
         override public bool IsBindable { get { return _isBindable; } }
         override public bool IsReturnTypeStub { get { return _isReturnTypeStub; } }
+        override public bool IsLocalType { get { return _isLocalType; } }
 
         override public global::Windows.UI.Xaml.Markup.IXamlMember ContentProperty
         {
@@ -621,6 +635,11 @@ namespace designIdea002.designIdea002_XamlTypeInfo
         public void SetIsReturnTypeStub()
         {
             _isReturnTypeStub = true;
+        }
+
+        public void SetIsLocalType()
+        {
+            _isLocalType = true;
         }
 
         public void SetItemTypeName(string itemTypeName)

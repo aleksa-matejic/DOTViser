@@ -86,8 +86,10 @@
                         <ColumnDefinition Width="150"></ColumnDefinition>
                         <ColumnDefinition></ColumnDefinition>
                         <ColumnDefinition Width="150"></ColumnDefinition>
-                        <!--<ColumnDefinition></ColumnDefinition>
-                        <ColumnDefinition Width="150"></ColumnDefinition>-->
+                        <!-- // Aleksa: Zakomentarisano je bilo -->
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition Width="150"></ColumnDefinition>
+                        <!-- Aleksa -->
                     </Grid.ColumnDefinitions>
 
                     <Grid.RowDefinitions>
@@ -100,8 +102,8 @@
 
                     <!--VESTI-->
                     <TextBlock Grid.Column="1" Grid.Row="1" FontFamily="Segoi UI" FontSize="50">Вести</TextBlock>
-
-                    <Grid Grid.Row="2" Grid.Column="1" Height="800" VerticalAlignment="Top">
+                    <!-- // Aleksa: changed height from 800 to 750 for consistency -->
+                    <Grid Grid.Row="2" Grid.Column="1" Height="750" VerticalAlignment="Top">
                         <ListView x:Name="lista" Tapped="lista_Tapped"  >
                             <ListView.ItemTemplate>
                                 <DataTemplate x:Name="temp">
@@ -144,6 +146,59 @@
                         </ListView>
                     </Grid>
                     <!--/VESTI-->
+
+                    <!--RASPORED-->
+                    <TextBlock Grid.Column="9" Grid.Row="1" FontFamily="Segoi UI" FontSize="50">Распоред</TextBlock>
+
+                    <Grid Grid.Row="2" Grid.Column="9" Height="750" VerticalAlignment="Top">
+                        <ListView x:Name="listaRaspored" Tapped="listaRaspored_Tapped"  >
+                            <ListView.ItemTemplate>
+                                <DataTemplate x:Name="temp15">
+                                    <Grid>
+                                        <StackPanel Orientation="Vertical" x:Name="stackGlavni15">
+                                            <StackPanel Orientation="Horizontal" >
+                                                <Grid>
+                                                    <Rectangle Width="75" Height="75" Fill="#3498db"/>
+                                                    <StackPanel Margin="0,5,0,0">
+                                                        <TextBlock FontSize="40" HorizontalAlignment="Center" Text="{Binding Broj}" />
+                                                    </StackPanel>
+                                                    <StackPanel Margin="0,50,0,0">
+                                                        <TextBlock  FontSize="18" HorizontalAlignment="Center" Text="{Binding SmerSkraceno}" />
+
+                                                    </StackPanel>
+                                                </Grid>
+                                                <StackPanel Margin="10,0,0,0">
+                                                    <!--TextBlock FontSize="20" TextWrapping="Wrap" Width="380" Height="40" Text="{Binding Smer}"/>
+                                                    <TextBlock FontSize="20" TextWrapping="Wrap" Width="380" Height="40" Text="{Binding Semestar}"/-->
+                                                    <TextBlock FontSize="20" VerticalAlignment="Top" TextWrapping="Wrap" Width="380" Text="{Binding Smer}"/>
+                                                    <TextBlock FontSize="20" VerticalAlignment="Bottom" TextWrapping="Wrap" Width="380" Text="{Binding Semestar}"/>
+                                                </StackPanel>
+                                            </StackPanel>
+                                            <StackPanel  HorizontalAlignment="Left" >
+                                                <!--TextBlock  FontSize="15" Margin="0,5,0,0" Foreground="white" TextWrapping="Wrap" TextAlignment="Justify" Width="420" Height="auto" Text=""/-->
+                                                <!-- // Aleksa: using this button for consistency -->
+                                                <Button Background="Transparent" BorderBrush="Transparent" FontSize="14" Height="40"  HorizontalAlignment="Right" Content="{Binding Prikaz}"  Visibility="{Binding Vidljivost}"/>
+                                            </StackPanel>
+                                        </StackPanel>
+                                    </Grid>
+
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                            <ListView.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <VirtualizingStackPanel>
+                                        <VirtualizingStackPanel.ChildrenTransitions>
+                                            <TransitionCollection>
+                                                <EntranceThemeTransition FromHorizontalOffset="400" />
+                                            </TransitionCollection>
+                                        </VirtualizingStackPanel.ChildrenTransitions>
+                                    </VirtualizingStackPanel>
+                                </ItemsPanelTemplate>
+                            </ListView.ItemsPanel>
+                        </ListView>
+                    </Grid>
+                    <!--/RASPORED-->
+
                     <!--TIMOVI-->
                     <TextBlock Grid.Column="5" Grid.Row="1" FontFamily="Segoi UI" FontSize="50">Тимови</TextBlock>
                     <Grid Grid.Column="5" Grid.Row="2" x:Name="gridTimovi">
