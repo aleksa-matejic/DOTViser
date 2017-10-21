@@ -803,145 +803,179 @@ namespace designIdea002
 
             #region hard coded
             skraceno.Add("АСУВ");
-            linkovi.Add("download/ASUV_2016_17_p.pdf");
+            linkovi.Add("download/ASUV1pp.pdf");
             smerovi.Add("Аутоматика и системи управаљања возилима");
             semestar.Add("1. семестар");
 
             skraceno.Add("АВТ");
-            linkovi.Add("download/AVT1p.pdf");
+            linkovi.Add("download/AVT1pp.pdf");
             smerovi.Add("Аудио и видео технологије");
             semestar.Add("1. семестар");
 
             skraceno.Add("ЕЛИТЕ");
-            linkovi.Add("download/ELITE_2016_17_p.pdf");
+            linkovi.Add("download/ELITE1pp.pdf");
             smerovi.Add("Електроника и телекомуникације");
             semestar.Add("1. семестар");
 
-            skraceno.Add("ЕПО");
-            linkovi.Add("download/EPO1p.pdf");
-            smerovi.Add("Електронско пословање");
+            skraceno.Add("ЕИ");
+            linkovi.Add("download/EI1pp.pdf");
+            smerovi.Add("Еколошки инжењеринг");
+            semestar.Add("1. семестар");
+
+            skraceno.Add("ИС");
+            linkovi.Add("download/IS1pp.pdf");
+            smerovi.Add("Информациони системи");
             semestar.Add("1. семестар");
 
             skraceno.Add("НЕТ");
-            linkovi.Add("download/NET_2016_17_p.pdf");
+            linkovi.Add("download/NET1pp.pdf");
             smerovi.Add("Нове енергетске технологије");
             semestar.Add("1. семестар");
 
             skraceno.Add("НРТ");
-            linkovi.Add("download/NRT1p.pdf");
+            linkovi.Add("download/NRT1pp.pdf");
             smerovi.Add("Нове рачунарске технологије");
             semestar.Add("1. семестар");
 
             skraceno.Add("РТ");
-            linkovi.Add("download/RT_2016_17_p.pdf");
+            linkovi.Add("download/RT1pp.pdf");
             smerovi.Add("Рачунарска техника");
             semestar.Add("1. семестар");
 
             /***********************/
 
             skraceno.Add("АСУВ");
-            linkovi.Add("download/ASUV3p_2016_17_p.pdf");
+            linkovi.Add("download/ASUV3p.pdf");
             smerovi.Add("Аутоматика и системи управаљања возилима");
             semestar.Add("3. семестар");
 
             skraceno.Add("АВТ");
-            linkovi.Add("download/AVT3p_2016_17_p.pdf");
+            linkovi.Add("download/AVT3p.pdf");
             smerovi.Add("Аудио и видео технологије");
             semestar.Add("3. семестар");
             
             skraceno.Add("ЕЛИТЕ");
-            linkovi.Add("download/ELITE3p_2016_17_p.pdf");
+            linkovi.Add("download/ELITE3p.pdf");
             smerovi.Add("Електроника и телекомуникације");
             semestar.Add("3. семестар");
 
             skraceno.Add("ЕПО");
-            linkovi.Add("download/EPO3p_2016_17_p.pdf");
+            linkovi.Add("download/EPO3p.pdf");
             smerovi.Add("Електронско пословање");
             semestar.Add("3. семестар");
 
             skraceno.Add("НЕТ");
-            linkovi.Add("download/NET3p_2016_17_p.pdf");
+            linkovi.Add("download/NET3p.pdf");
             smerovi.Add("Нове енергетске технологије");
             semestar.Add("3. семестар");
 
             skraceno.Add("НРТ");
-            linkovi.Add("download/NRT3p_2016_17_p.pdf");
+            linkovi.Add("download/NRT3p.pdf");
             smerovi.Add("Нове рачунарске технологије");
             semestar.Add("3. семестар");
 
             skraceno.Add("РТ");
-            linkovi.Add("download/RT3p_2016_17_p.pdf");
+            linkovi.Add("download/RT3p.pdf");
             smerovi.Add("Рачунарска техника");
             semestar.Add("3. семестар");
 
             /***********************/
 
             skraceno.Add("АСУВ");
-            linkovi.Add("download/ASUV5p_2016_17_p.pdf");
+            linkovi.Add("download/ASUV5p.pdf");
             smerovi.Add("Аутоматика и системи управаљања возилима");
             semestar.Add("5. семестар");
 
             skraceno.Add("АВТ");
-            linkovi.Add("download/AVT5p_2016_17_p.pdf");
+            linkovi.Add("download/AVT5p.pdf");
             smerovi.Add("Аудио и видео технологије");
             semestar.Add("5. семестар");
 
             skraceno.Add("ЕЛИТЕ");
-            linkovi.Add("download/ELITE5p_2016_17_p.pdf");
+            linkovi.Add("download/ELITE5p.pdf");
             smerovi.Add("Електроника и телекомуникације");
             semestar.Add("5. семестар");
 
             skraceno.Add("ЕПО");
-            linkovi.Add("download/EPO5p_2016_17_p.pdf");
+            linkovi.Add("download/EPO5p.pdf");
             smerovi.Add("Електронско пословање");
             semestar.Add("5. семестар");
 
             skraceno.Add("НЕТ");
-            linkovi.Add("download/NET5p_2016_17_p.pdf");
+            linkovi.Add("download/NET5p.pdf");
             smerovi.Add("Нове енергетске технологије");
             semestar.Add("5. семестар");
 
             skraceno.Add("НРТ");
-            linkovi.Add("download/NRT5p_2016_17_p.pdf");
+            linkovi.Add("download/NRT5p.pdf");
             smerovi.Add("Нове рачунарске технологије");
             semestar.Add("5. семестар");
 
             skraceno.Add("РТ");
-            linkovi.Add("download/RT5p_2016_17_p.pdf");
+            linkovi.Add("download/RT5p.pdf");
             smerovi.Add("Рачунарска техника");
             semestar.Add("5. семестар");
 
             /***********************/
 
             skraceno.Add("ССЕЛИТЕ");
-            linkovi.Add("download/Raspored_zimski_%20ELITE_SS_%202016_17.pdf");
+            linkovi.Add("download/SPEC_ELITE_pp.pdf");
             smerovi.Add("СС Електроника и телекомуникације");
             semestar.Add("7. семестар");
 
             skraceno.Add("МЕХА");
-            linkovi.Add("download/Raspored_zimski_MEHA__2016_17.pdf");
+            linkovi.Add("download/SPEC_MEHA_pp.pdf");
             smerovi.Add("СС Мехатроника");
             semestar.Add("7. семестар");
 
-            skraceno.Add("МТДТВ");
-            linkovi.Add("download/Raspored_zimski_%20MDTV_SS_%202016_17.pdf");
-            smerovi.Add("СС Мултимедијалне технологије и дигитална телевизија");
-            semestar.Add("7. семестар");
-
             skraceno.Add("ССНЕТ");
-            linkovi.Add("download/Raspored_zimski_NET_SS_2016_17.pdf");
+            linkovi.Add("download/SPEC_NET_pp.pdf");
             smerovi.Add("СС Нове енергетске технологије");
             semestar.Add("7. семестар");
 
             skraceno.Add("ССНРТ");
-            linkovi.Add("download/Raspored_zimski_%20NRT_SS_%202016_17.pdf");
+            linkovi.Add("download/SPEC_NRT_pp.pdf");
             smerovi.Add("СС Нове рачунарске технологије");
             semestar.Add("7. семестар");
 
             skraceno.Add("СИКС");
-            linkovi.Add("download/Raspored_zimski_SIKS_SS_%202016_17.pdf");
+            linkovi.Add("download/SPEC_SIKS_ppp.pdf");
             smerovi.Add("СС Сигурност у информационо комуникационим системима");
             semestar.Add("7. семестар");
+
+            /***********************/
+
+            skraceno.Add("ЕЛИН");
+            linkovi.Add("download/ELIN1pp.pdf");
+            smerovi.Add("Електротехничко инжењерство");
+            semestar.Add("1. семестар");
+
+            skraceno.Add("МУИН");
+            linkovi.Add("download/MUIN1ppp.pdf");
+            smerovi.Add("Мултимедијално инжењерство");
+            semestar.Add("1. семестар");
+
+            skraceno.Add("РИН");
+            linkovi.Add("download/RIN1p.pdf");
+            smerovi.Add("Рачунарско инжењерство");
+            semestar.Add("1. семестар");
+
+            /***********************/
+
+            skraceno.Add("ЕЛИН");
+            linkovi.Add("download/ELIN3p.pdf");
+            smerovi.Add("Електротехничко инжењерство");
+            semestar.Add("3. семестар");
+
+            skraceno.Add("МУИН");
+            linkovi.Add("download/MUIN3ppp.pdf");
+            smerovi.Add("Мултимедијално инжењерство");
+            semestar.Add("3. семестар");
+
+            skraceno.Add("РИН");
+            linkovi.Add("download/RIN3pp.pdf");
+            smerovi.Add("Рачунарско инжењерство");
+            semestar.Add("3. семестар");
             #endregion
 
             int i = 0;
