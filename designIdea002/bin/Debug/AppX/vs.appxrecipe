@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Code\DOTViserRepo\designIdea002\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-12T11:31:21.981</Modified>
+      <Modified>2018-05-12T11:47:25.168</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Code\DOTViserRepo\designIdea002\bin\Debug\designIdea002.exe">
       <PackagePath>designIdea002.exe</PackagePath>
-      <Modified>2018-05-12T11:31:20.206</Modified>
+      <Modified>2018-05-12T11:47:23.920</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Code\DOTViserRepo\designIdea002\bin\Debug\MySql.Data.RT.dll">
       <PackagePath>MySql.Data.RT.dll</PackagePath>
@@ -84,16 +84,16 @@
       <PackagePath>Assets\avt-pozadina.JPG</PackagePath>
       <Modified>2018-05-11T17:51:38.081</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Code\DOTViserRepo\designIdea002\Assets\futsal-pozadina.jpg">
-      <PackagePath>Assets\futsal-pozadina.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Code\DOTViserRepo\designIdea002\slike\timovi\futsal-pozadina.jpg">
+      <PackagePath>slike\timovi\futsal-pozadina.jpg</PackagePath>
       <Modified>2018-05-11T17:51:40.793</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Code\DOTViserRepo\designIdea002\Assets\futsal1.jpg">
       <PackagePath>Assets\futsal1.jpg</PackagePath>
       <Modified>2018-05-11T17:51:41.065</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Code\DOTViserRepo\designIdea002\Assets\futsal2.jpg">
-      <PackagePath>Assets\futsal2.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Code\DOTViserRepo\designIdea002\slike\timovi\futsal2.jpg">
+      <PackagePath>slike\timovi\futsal2.jpg</PackagePath>
       <Modified>2018-05-11T17:51:41.306</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Code\DOTViserRepo\designIdea002\Assets\kosarka_pozadina.jpg">
@@ -870,44 +870,44 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Code\DOTViserRepo\designIdea002\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-05-12T11:31:18.671</Modified>
+      <Modified>2018-05-12T11:47:23.482</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Code\DOTViserRepo\designIdea002\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-05-12T11:31:18.677</Modified>
+      <Modified>2018-05-12T11:47:23.484</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Code\DOTViserRepo\designIdea002\bin\Debug\PdfPage.xbf">
       <PackagePath>PdfPage.xbf</PackagePath>
-      <Modified>2018-05-12T11:31:18.684</Modified>
+      <Modified>2018-05-12T11:47:23.485</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Code\DOTViserRepo\designIdea002\bin\Debug\Profesor.xbf">
       <PackagePath>Profesor.xbf</PackagePath>
-      <Modified>2018-05-12T11:31:18.688</Modified>
+      <Modified>2018-05-12T11:47:23.487</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Code\DOTViserRepo\designIdea002\bin\Debug\Profesori.xbf">
       <PackagePath>Profesori.xbf</PackagePath>
-      <Modified>2018-05-12T11:31:18.696</Modified>
+      <Modified>2018-05-12T11:47:23.488</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Code\DOTViserRepo\designIdea002\bin\Debug\Smerovi.xbf">
       <PackagePath>Smerovi.xbf</PackagePath>
-      <Modified>2018-05-12T11:31:18.699</Modified>
+      <Modified>2018-05-12T11:47:23.489</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Code\DOTViserRepo\designIdea002\bin\Debug\Studenti.xbf">
       <PackagePath>Studenti.xbf</PackagePath>
-      <Modified>2018-05-12T11:31:18.706</Modified>
+      <Modified>2018-05-12T11:47:23.491</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Code\DOTViserRepo\designIdea002\bin\Debug\Timovi.xbf">
       <PackagePath>Timovi.xbf</PackagePath>
-      <Modified>2018-05-12T11:31:18.711</Modified>
+      <Modified>2018-05-12T11:47:23.492</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Code\DOTViserRepo\designIdea002\bin\Debug\Vesti.xbf">
       <PackagePath>Vesti.xbf</PackagePath>
-      <Modified>2018-05-12T11:31:18.716</Modified>
+      <Modified>2018-05-12T11:47:23.496</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Code\DOTViserRepo\designIdea002\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-12T11:31:21.645</Modified>
+      <Modified>2018-05-12T11:47:24.618</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

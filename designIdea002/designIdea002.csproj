@@ -169,9 +169,9 @@
     <Content Include="Assets\casopis.png" />
     <Content Include="Assets\DarkGray.png" />
     <Content Include="Assets\fudbal.png" />
-    <Content Include="Assets\futsal-pozadina.jpg" />
+    <Content Include="slike\timovi\futsal-pozadina.jpg" />
     <Content Include="Assets\futsal1.jpg" />
-    <Content Include="Assets\futsal2.jpg" />
+    <Content Include="slike\timovi\futsal2.jpg" />
     <Content Include="Assets\kosarka.png" />
     <Content Include="Assets\kosarka_pozadina.jpg" />
     <Content Include="Assets\LightGray.png" />
