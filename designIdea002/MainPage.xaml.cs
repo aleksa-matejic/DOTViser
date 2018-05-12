@@ -754,7 +754,7 @@ namespace designIdea002
 
         void interval2_Tick(object sender, object e)
         {
-            pozadinskeSlike.ImageSource = new BitmapImage(new Uri("ms-appx:///" + pozadniskeSlike[indexSl++]));
+            pozadinskeSlike.ImageSource = new BitmapImage(new Uri("ms-appx://" + pozadniskeSlike[indexSl++]));
             if (indexSl == pozadniskeSlike.Count)
             {
                 indexSl = 0;

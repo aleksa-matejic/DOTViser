@@ -1,6 +1,5 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
-    <LocalAssembly PathName="c:\users\amatejic\desktop\dot-master\designidea002\obj\debug\intermediatexaml\designidea002.exe" HashGuid="0e0381e3-3cac-a7f3-2c6d-0c46e941ee5d" />
-    <ReferenceAssembly PathName="c:\users\amatejic\desktop\dot-master\designidea002\bin\debug\mysql.data.rt.dll" HashGuid="e1f8864d-84a4-ccd6-9aeb-163ed9dc3c15" />
+    <ReferenceAssembly PathName="c:\code\dotviserrepo\designidea002\bin\debug\mysql.data.rt.dll" HashGuid="e1f8864d-84a4-ccd6-9aeb-163ed9dc3c15" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>
